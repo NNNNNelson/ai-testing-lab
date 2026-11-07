@@ -154,15 +154,41 @@ The test failure was real; fixing the test instead would have shipped the bug.
 
 ## Reproduce
 
-```bash
-pip install -r requirements.txt
-export ARK_API_KEY=...            # Volcano Ark key, user env var on Windows
+**Use a project-local virtual environment.** Systems with several Python
+installations (Windows especially) resolve `python` to different interpreters from
+different shells; installing into one and running in another produces
+`ModuleNotFoundError: No module named 'numpy'` while the machine "has numpy".
+
+```powershell
+py -3.12 -m venv .venv                       # or: python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Then either activate it for the session or call the interpreter explicitly:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+# no profile yet? this is enough for the current shell:
+#   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+```powershell
+$env:ARK_API_KEY=[Environment]::GetEnvironmentVariable('ARK_API_KEY','User')
+python -m evals.llm --probe       # [chat] -> pong, [embed] -> (2, 2048) normalised: True
 python scripts/build_corpus.py    # download + extract (public PDF)
 python scripts/probe_models.py    # which model ids actually exist on this account
 python -m evals.run_eval --provider ark --systems all --k 5 --tag ark-baseline
 python scripts/ablation.py
-python -m pytest -q               # 18 passed, 1 skipped (optional smolagents)
+python scripts/trace_one_case.py --id rag-01          # one case, every intermediate state
+python -m pytest -q               # 18 passed, 1 skipped (requires a real key for model tests)
 ```
+
+Environment the published numbers were measured in: CPython **3.13.16**,
+`requirements.txt` pinned to the exact versions (`numpy 2.5.4`, `llama-index-core
+0.14.25`, `pytest 9.2.0`, `pypdf 7.0.0`), Volcano Ark
+`doubao-seed-2-1-pro-260628` / `doubao-embedding-vision-251215`. Re-running the
+suite inside a fresh Python 3.12 venv reproduces the same
+`18 passed, 1 skipped` and the same retrieval scores.
 
 Offline behaviour: without a key the `mock` provider runs the plumbing and the
 model-dependent tests **skip** rather than pass. Mock scores are never published —

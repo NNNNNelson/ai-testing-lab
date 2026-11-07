@@ -1,12 +1,18 @@
+# Versions pinned to the environment the published results were measured in
+# (Python 3.13.16, 2026-11-07). Unpinned deps are how "works on my machine"
+# turns into "the numbers cannot be reproduced".
+#
+# Minimum interpreter: CPython 3.12 (3.12 / 3.13 verified).
+
 # Core (required)
-pytest>=8.0
-pyyaml>=6.0
-numpy>=1.26
-requests>=2.31
-pypdf>=4.0
+pytest==9.2.0
+PyYAML==6.0.3
+numpy==2.5.4
+requests==2.34.2
+pypdf==7.0.0
 
-# Target A: external RAG framework
-llama-index-core>=0.11
+# Target A: external RAG framework (pulls pydantic 2.x / tiktoken)
+llama-index-core==0.14.25
 
-# Target D: external agent framework (optional, tests skip if missing)
+# Target D: external agent framework (optional; tests skip if missing)
 smolagents>=1.0
