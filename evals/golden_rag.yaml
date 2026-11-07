@@ -1,0 +1,155 @@
+# RAG golden set (20 cases) — corpus: HSBC Holdings plc Annual Report and Accounts 2024
+# Pages refer to the PDF page markers in data/corpus.txt (first 119 pages).
+#
+# Every fact below was located with scripts/find_fact.py against the extracted text.
+# Nothing here is written from memory: if a number is wrong, the retrieval metric is
+# measuring my typing, not the system.
+#
+# gold_sources  = hand-labelled minimum (where I read the fact)
+# answer_pattern = regex; all pages containing the answer are added at eval time
+#                  (evals/corpus.py). Reports are repeatable, not hand-waved.
+#
+# Categories:
+#   answerable   - single-pass lookup, answer must be grounded
+#   multi_hop    - needs two pages, or one page plus arithmetic
+#   unanswerable - verified absent from the corpus; the correct behaviour is to refuse
+
+- id: rag-01
+  category: answerable
+  question: "2024 年的税前利润是多少？与 2023 年相比增加了多少？"
+  gold_answer: "税前利润 32.3 亿美元，较 2023 年的 30.3 亿美元增加 2.0 亿美元。"
+  gold_sources: [3, 4]
+  answer_pattern: "32\\.3bn"
+
+- id: rag-02
+  category: answerable
+  question: "2024 年净利息收入是多少？较上年变化多少？"
+  gold_answer: "净利息收入 327 亿美元，2023 年为 358 亿美元，下降 31 亿美元。"
+  gold_sources: [3, 4]
+  answer_pattern: "32,733|32\\.7bn"
+
+- id: rag-03
+  category: answerable
+  question: "2024 年每股股息是多少？其中特别股息占多少？"
+  gold_answer: "每股股息 0.87 美元，其中包含每股 0.21 美元的特别股息（2023 年为 0.61 美元）。"
+  gold_sources: [3, 27]
+  answer_pattern: "0\\.87"
+
+- id: rag-04
+  category: answerable
+  question: "2024 年末普通股权一级资本（CET1）比率是多少？集团的中期目标区间是多少？"
+  gold_answer: "CET1 比率 14.9%（2023 年 14.8%）；中期目标区间为 14% 至 14.5%。"
+  gold_sources: [3, 5]
+  answer_pattern: "14\\.9%"
+
+- id: rag-05
+  category: answerable
+  question: "2024 年的成本效率比是多少？2023 年是多少？"
+  gold_answer: "2024 年为 50.2%，2023 年为 48.5%（2022 年为 64.6%）。"
+  gold_sources: [28]
+  answer_pattern: "50\\.2"
+
+- id: rag-06
+  category: answerable
+  question: "2024 年的营业费用总额是多少？"
+  gold_answer: "营业费用 330 亿美元（2023 年 321 亿美元）。"
+  gold_sources: [3]
+  answer_pattern: "33\\.0bn"
+
+- id: rag-07
+  category: answerable
+  question: "2024 年平均有形股本回报率（RoTE）是多少？"
+  gold_answer: "14.6%（剔除 notable items 后为 16.0%）。"
+  gold_sources: [8, 10]
+  answer_pattern: "14\\.6%"
+
+- id: rag-08
+  category: answerable
+  question: "2024 年中国内地业务的税前利润是多少？其中来自交通银行的利润份额是多少？"
+  gold_answer: "中国内地业务税前利润 32 亿美元，其中包含来自联营公司交行（BoCom）的 22 亿美元利润份额。"
+  gold_sources: [14]
+  answer_pattern: "3\\.2bn"
+
+- id: rag-09
+  category: answerable
+  question: "2024 年集团向股东返还的总金额是多少？"
+  gold_answer: "269 亿美元。"
+  gold_sources: [12]
+  answer_pattern: "26\\.9bn"
+
+- id: rag-10
+  category: answerable
+  question: "2024 年的银行净利息收入（banking NII）是多少？"
+  gold_answer: "437 亿美元（2023 年 441 亿美元）。"
+  gold_sources: [3]
+  answer_pattern: "43\\.7bn"
+
+- id: rag-11
+  category: answerable
+  question: "2024 年完成行为与金融犯罪合规培训的员工比例是多少？目标要求是多少？"
+  gold_answer: "99% 的员工完成培训（2023 年为 98%），目标是不低于 98%。"
+  gold_sources: [19]
+  answer_pattern: "99%"
+
+- id: rag-12
+  category: answerable
+  question: "剔除 notable items 后，2024 年收入是多少？"
+  gold_answer: "674 亿美元，较上年增加 29 亿美元。"
+  gold_sources: [4]
+  answer_pattern: "67\\.4bn"
+
+- id: rag-13
+  category: multi_hop
+  question: "2024 年税前利润同比增加的 20 亿美元中，有多少来自 notable items 的净正面影响？"
+  gold_answer: "10 亿美元（净正面影响），即增量中约一半来自 notable items。"
+  gold_sources: [3, 4]
+  answer_pattern: "1\\.0bn"
+
+- id: rag-14
+  category: multi_hop
+  question: "如果把交通银行的利润份额剔除，2024 年中国内地业务自身的税前利润大约是多少？"
+  gold_answer: "约 10 亿美元（32 亿减去交行贡献的 22 亿）。"
+  gold_sources: [14]
+  answer_pattern: "3\\.2bn"
+
+- id: rag-15
+  category: multi_hop
+  question: "2024 年 CET1 比率较 2023 年变动了多少？报告给出的主要原因是什么？"
+  gold_answer: "上升 0.1 个百分点（14.8% 升至 14.9%），主因是资本生成和风险加权资产（RWA）减少。"
+  gold_sources: [4, 12]
+  answer_pattern: "14\\.9%"
+
+- id: rag-16
+  category: unanswerable
+  question: "汇丰的 SWIFT/BIC 代码是什么？"
+  gold_answer: ""
+  gold_sources: []
+  note: "已验证 Swift/BIC 在语料中完全不出现"
+
+- id: rag-17
+  category: unanswerable
+  question: "2024 年集团行政总裁获得的年度奖金金额是多少？"
+  gold_answer: ""
+  gold_sources: []
+  note: "已验证 bonus 一词在语料中不出现；薪酬细节在 120 页之后"
+
+- id: rag-18
+  category: unanswerable
+  question: "2025 年第一季度的营业收入具体是多少？"
+  gold_answer: ""
+  gold_sources: []
+  note: "语料只提到 2025 年一季度业绩发布的时间点，没有任何季度营收数字"
+
+- id: rag-19
+  category: unanswerable
+  question: "汇丰 2024 年在巴西的员工人数是多少？"
+  gold_answer: ""
+  gold_sources: []
+  note: "巴西仅在社区合作语境出现，无人数数据"
+
+- id: rag-20
+  category: unanswerable
+  question: "汇丰 2024 年信用卡的发卡总量是多少张？"
+  gold_answer: ""
+  gold_sources: []
+  note: "信用卡只在产品/投诉语境出现，无发卡量数据"

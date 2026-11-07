@@ -1,0 +1,1262 @@
+{
+  "baseline-rag": {
+    "summary": {
+      "hit_at_k": 0.8666666666666667,
+      "recall": 0.4160846560846561,
+      "precision": 0.48000000000000004,
+      "abstention": 1.0,
+      "hallucination": 0.0,
+      "numeric_leak": 0.0,
+      "cases": 20
+    },
+    "records": [
+      {
+        "id": "rag-01",
+        "category": "answerable",
+        "question": "2024 年的税前利润是多少？与 2023 年相比增加了多少？",
+        "answer": "2024年报告的税前利润为323亿美元，较2023年增加20亿美元，增幅6%。",
+        "refused": false,
+        "retrieved": [
+          "27",
+          "32",
+          "29",
+          "8",
+          "13"
+        ],
+        "gold_sources": [
+          3,
+          4
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "8",
+          "10",
+          "13",
+          "27",
+          "29",
+          "31"
+        ],
+        "hit": true,
+        "contexts": [
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          ". Results – on a constant currency basis  2024 2023 2022 2024 vs 2023 of which strategic  transactions 2 $m $m $m $m % $m Net operating income 28,674 26,848 20,772 1,826 7 (636)  ECL (1,335) (935) (1,160) (400) (43) (22)  Operating expenses (15,204) (14,352) (14,141) (852) (6) 651  Share of profit in associates and JVs 47 64 29 (17) (27) —  Profit before tax 12,182 11,625 5,500 557 5 (7)  RoTE 1  (%) 29.0 28.5 13.8  1 RoTE (annualised) in 2023 and 2022 included a 0.3 and 4.7 percentage point adverse impact ",
+          " performance  commentary that follows compares our  results in 2024 with those in 2023. Reported results (vs 2023) Reported profit Reported profit before tax of $32.3bn was  $2.0bn or 6% higher. This included a net  $1.0bn favourable impact from notable items.  In 2024, notable items included a gain of  $4.8bn following the disposal of our banking  business in Canada, and losses associated  with the sale of our business in Argentina,  comprising a $1.0bn loss on disposal, as well  as the recycling of foreig",
+          "t. Combined  with our sustained levels of profitability, this  led to greater earnings and dividends per  share for our shareholders.  Dividends paid in 2024, together with a more  than 20% increase in the share price,  delivered a total shareholder return for the  year of more than 30%.  Our performance demonstrates that our  strategy is working. To maintain, and indeed  accelerate, the momentum, we are being  very deliberate in creating investment  capacity for priority areas, focusing on long- term strat",
+          "before tax  excluding notable items and the impact of  foreign currency translation. On this basis,  profit before tax was $34.1bn, compared with  $32.7bn in 2023. Our reported revenue of  $65.9bn was broadly stable compared with  2023. Excluding notable items and in  constant currency, we grew revenue by 5%  compared with 2023.  In 2024, we achieved a RoTE of 14.6%.  During 2024, we reported several notable  items, in particular related to strategic  disposals. To facilitate comparison across  periods, we "
+        ]
+      },
+      {
+        "id": "rag-02",
+        "category": "answerable",
+        "question": "2024 年净利息收入是多少？较上年变化多少？",
+        "answer": "2024年净利息收入为327亿美元，较2023年减少31亿美元，降幅9%。",
+        "refused": false,
+        "retrieved": [
+          "93",
+          "92",
+          "4",
+          "107",
+          "3"
+        ],
+        "gold_sources": [
+          3,
+          4
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "13",
+          "29",
+          "91",
+          "92",
+          "93",
+          "112"
+        ],
+        "hit": true,
+        "contexts": [
+          "l Report and Accounts 2024  The change in interest income in 2024 compared with 2023 included  an adverse impact of foreign currency translation differences of  $2.7bn. After excluding foreign currency translation differences,  interest income increased by $10.5bn. Interest expense for 2024 of $75.9bn increased by $10.8bn  compared with 2023, primarily due to an increase in market interest  rates, growth in customer accounts with higher proportion for term  deposits and the impact of the early redemption of",
+          "ments and thus higher cost. 2 Including interest-bearing bank deposits only.  3 Including interest-bearing customer accounts only.  Net interest income (‘NII’) for 2024 was $32.7bn, a decrease of  $3.1bn or 9% compared with 2023. The decrease included a $2.7bn  reduction mainly due to the redeployment of our commercial surplus  to net trading and fair value assets, for which the associated revenue  is reported in ‘net income on financial instruments held for trading or  managed on a fair value basis‘. The f",
+          "m. – We expect banking NII of around $42bn in  2025. Our current expectation reflects  modelling of a number of market-dependent  factors. If changes in these factors impact the  output of our modelling, we would update our  expectation for 2025 Banking NII in future  quarterly results announcements. – We retain a Group-wide focus on cost  discipline. We are targeting growth in target  basis operating expenses of approximately  3% in 2025 compared with 2024.  – Our target basis operating expenses for 2025  ",
+          "els, consolidation and inter-company elimination entries.  Results of WPB’s life insurance business unit (constant currency basis) 2024 2023 2022 Insurance  manufac- turing  operations Wealth  insurance  and other1 Life  insurance Insurance  manufac- turing  operations Wealth  insurance  and other1 Life  insurance Insurance  manufac- turing  operations Wealth  insurance  and other1 Life  insurance $m $m $m $m $m $m $m $m $m Net interest income 326 — 326 282 — 282 345 (3) 342  Net fee income/(expense) 10 167",
+          "g net interest income of $43.7bn  (2023: $44.1bn) Operating expenses $33.0bn (2023: $32.1bn) Target basis operating expenses up 5% to  $32.6bn Common equity tier 1 capital ratio 14.9% (2023: 14.8%) Dividend per share in respect of 2024 $0.87 Inclusive of a special dividend of $0.21 per  share. (2023 dividend per share: $0.61)  Strategic performance  indicators  Our strategy supports our ambition of being  the preferred international financial partner for  our clients. We are committed to building a business"
+        ]
+      },
+      {
+        "id": "rag-03",
+        "category": "answerable",
+        "question": "2024 年每股股息是多少？其中特别股息占多少？",
+        "answer": "2024年每股总股息为0.87美元，其中包含出售加拿大银行业务相关的特别股息每股0.21美元。",
+        "refused": false,
+        "retrieved": [
+          "28",
+          "91",
+          "4",
+          "8",
+          "16"
+        ],
+        "gold_sources": [
+          3,
+          27
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "8",
+          "27",
+          "28"
+        ],
+        "hit": true,
+        "contexts": [
+          "of other  alternative performance measures are included in ‘Reconciliation of alternative performance measures’ on page 120. 1 In 2024, dividend per share includes the special dividend of $0.21 per ordinary share arising from the proceeds of the sale of our banking business in Canada to Royal  Bank of Canada.  2 In 2024 and 2023, our dividend payout ratio was adjusted for material notable items and related impacts, including all associated income statement impacts relating to  those items. In 2022, our divi",
+          " during the period, which consisted of a fourth interim dividend of $0.31 per ordinary share in respect of the financial year ended  31 December 2023 paid in April 2024 and the first, second and third interim dividends of $0.30 per ordinary share in respect of the financial year ending  31 December 2024. In addition, a special dividend of $0.21 per ordinary share from the Canada sale proceeds was paid in June 2024 along with the first interim  dividend. 8 In 2024 and 2023, our dividend payout ratio was adju",
+          "nly due to capital generation and a  reduction in RWAs through strategic  transactions, offset by dividends, share buy- backs and organic balance sheet growth. – The Board has approved a fourth interim  dividend of $0.36 per share, resulting in a  total of $0.87 per share in respect of 2024,  inclusive of a special dividend of $0.21 per  share. We also intend to initiate a share buy- back of up to $2bn, which we expect to  complete by our first quarter 2025 results  announcement.  Outlook  – We have announc",
+          "r share, bringing  the total dividend announced for 2024 to  $0.87 per share. This includes the special  dividend of $0.21 per share that was paid in  June following the completion of the sale of  HSBC Bank Canada. In addition, we  announced three share buy-backs in respect  of 2024 worth a total of $9bn. And today, we  announced a further share buy-back of up to  $2bn.  Since the start of 2023, we have repurchased  11% of the issued share count. Combined  with our sustained levels of profitability, this  l",
+          "pect to pay a further $6.4bn through the  fourth interim dividend and we expect to  repurchase $11bn of our shares for  cancellation with respect to 2024. The capital  generated on the disposal of our Canadian  banking operations supported the $0.21 per  share special dividend paid in 2Q24,  representing a further $3.9bn distribution. We aim to maintain a CET1 capital ratio in the  range of 14 to 14.5% over the medium term.  Our primary use of capital generation is to  pay an ordinary dividend of 50% of pro"
+        ]
+      },
+      {
+        "id": "rag-04",
+        "category": "answerable",
+        "question": "2024 年末普通股权一级资本（CET1）比率是多少？集团的中期目标区间是多少？",
+        "answer": "2024年末CET1资本比率为14.9%，集团中期CET1资本比率目标区间为14%至14.5%。",
+        "refused": false,
+        "retrieved": [
+          "16",
+          "5",
+          "27",
+          "40",
+          "31"
+        ],
+        "gold_sources": [
+          3,
+          5
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "5",
+          "10",
+          "12",
+          "16",
+          "27",
+          "31",
+          "39",
+          "40"
+        ],
+        "hit": true,
+        "contexts": [
+          "pect to pay a further $6.4bn through the  fourth interim dividend and we expect to  repurchase $11bn of our shares for  cancellation with respect to 2024. The capital  generated on the disposal of our Canadian  banking operations supported the $0.21 per  share special dividend paid in 2Q24,  representing a further $3.9bn distribution. We aim to maintain a CET1 capital ratio in the  range of 14 to 14.5% over the medium term.  Our primary use of capital generation is to  pay an ordinary dividend of 50% of pro",
+          "ing balances. – We expect double-digit percentage average  annual growth in fee and other income in  Wealth over the medium-term.  – We intend to continue to manage the CET1  capital ratio within our medium-term target  range of 14% to 14.5%, with a dividend  payout ratio target basis of 50% for 2025,  excluding material notable items and related  impacts.  Our targets and expectations reflect our current  outlook for the global macroeconomic  environment and market-dependent factors, such  as market-implie",
+          "with a commitment to an  annualised reduction of $1.5bn in our cost  base expected by the end of 2026. To deliver  these reductions, we plan to incur severance  and other up-front costs of $1.8bn over 2025  and 2026, which will be classified as notable  items.  Capital and dividend policy CET1 ratio  14.9% Dividend payout ratio in respect of 2024  50% on a dividend payout ratio target basis. At 31 December 2024, our CET1 capital ratio  was 14.9% which was higher than our  medium-term target range of 14% to ",
+          " senior  management in allocating financial resources  optimally to finance sustainable growth and  manage risk exposures.  At 31 December 2024 our CET1 ratio and  ECL charges were within their defined risk  appetite thresholds. Our CET1 capital ratio at  31 December 2024 was 14.9%, up marginally  compared with the prior year as capital  generation and a reduction in RWAs through  strategic transactions were offset by  dividends, share buy-backs and organic  balance sheet growth. For further details of  the",
+          " impact on  our CET1 ratio will be a modest benefit. Liquidity position We actively manage the Group’s liquidity and  funding to support the business strategy and  meet regulatory requirements at all times,  including under stress. To do this, we monitor  our position using a number of risk appetite  measures, including the liquidity coverage  ratio and the net stable funding ratio. During  2024, the average high-quality liquid assets we  held was $649.2bn. This excludes high-quality  liquid assets in legal"
+        ]
+      },
+      {
+        "id": "rag-05",
+        "category": "answerable",
+        "question": "2024 年的成本效率比是多少？2023 年是多少？",
+        "answer": "2024年HSBC的成本效率比为50.2%，2023年为48.5%。",
+        "refused": false,
+        "retrieved": [
+          "28",
+          "4",
+          "16",
+          "88",
+          "69"
+        ],
+        "gold_sources": [
+          28
+        ],
+        "supporting": [
+          "28",
+          "112"
+        ],
+        "hit": true,
+        "contexts": [
+          "idends, while retaining the flexibility to  invest and grow the business, supplemented  by additional shareholder distributions, if  appropriate. HSBC Holdings plc Annual Report and Accounts 2024 25 Strategic report  Key financial metrics For the year ended 31 Dec Reported results 2024 2023 2022 Profit before tax ($m) 32,309 30,348 17,058  Profit after tax ($m) 24,999 24,559 16,249  Revenue ($m) 65,854 66,058 50,620  Cost efficiency ratio (%) 50.2 48.5 64.6  Net interest margin (%) 1.56 1.66 1.42  Basic ear",
+          "red with 2024.  – Our target basis operating expenses for 2025  excludes the direct cost impact of the business  disposals in Canada and Argentina, notable  items and the impact of retranslating the prior  year results of hyperinflationary economies at  constant currency. – Our cost target includes the impact of  simplification-related saves associated with our  announced reorganisation, which aims to  generate approximately $0.3bn of cost  reductions in 2025, with a commitment to an  – annualised reduction",
+          "c Annual Report and Accounts 2024 13 Strategic report  Our ambitions Mid-teens RoTE extended During 2024, we announced our intention to  target a mid-teens RoTE1, excluding the  impact of notable items, for 2025. Alongside  our 2024 annual results, we have extended  this target to each of 2025, 2026 and 2027.  We will consider our cost and investment  plans within this framework.  Simplification  With our 2024 results, we have announced  that we aim to generate approximately  $0.3bn of cost reductions in 20",
+          " assessing cost- related targets. For a reconciliation from reported operating expenses  to target basis operating expenses, see page 124. In 2024, we targeted operating expenses growth on a target basis of  approximately 5% compared with 2023. This target reflected our  business plan for 2024, which included an increase in staff  compensation, higher spend and investment in technology for growth  and efficiency, in part mitigated by cost savings from actions taken  during 2023.  We are targeting growth in ",
+          "ork  processes allow them to work efficiently,  which is down three percentage points  compared with 2023. This remains one of the  lowest scoring items across the Snapshot  survey, particularly across our senior  leadership population. There are a number of  initiatives underway to make it easier for  colleagues to work efficiently. We also run an annual Pay and Benefits  survey, which in 2024 helped to evaluate  changes to our performance approach, as  well as capturing ongoing feedback about  colleague e"
+        ]
+      },
+      {
+        "id": "rag-06",
+        "category": "answerable",
+        "question": "2024 年的营业费用总额是多少？",
+        "answer": "根据提供的上下文，未披露2024年营业费用总额的完整数据，仅提及2024年目标口径营业费用为326亿美元，部分口径营业费用为152.04亿美元。\nI_DO_NOT_KNOW",
+        "refused": false,
+        "retrieved": [
+          "88",
+          "27",
+          "94",
+          "4",
+          "32"
+        ],
+        "gold_sources": [
+          3
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "12",
+          "30",
+          "95"
+        ],
+        "hit": true,
+        "contexts": [
+          " assessing cost- related targets. For a reconciliation from reported operating expenses  to target basis operating expenses, see page 124. In 2024, we targeted operating expenses growth on a target basis of  approximately 5% compared with 2023. This target reflected our  business plan for 2024, which included an increase in staff  compensation, higher spend and investment in technology for growth  and efficiency, in part mitigated by cost savings from actions taken  during 2023.  We are targeting growth in ",
+          ", as  well as customer behaviour and activity levels. Target basis operating expenses  $32.6bn (2023: $31.1bn) In 2024, reported operating expenses  increased by 3.0% compared with 2023.  Target basis operating expense growth was  5.1% compared with 2023, in line with our  target of approximately 5%. Growth primarily  reflected higher investment spend, including in  technology and from inflationary pressures. Our target basis operating expenses for 2024  excluded the direct cost impact of the disposals  in ",
+          "easurement uncertainties and significant judgements applied to  such calculations, the impact of the economic scenarios and  management judgemental adjustments, see pages 147 to 160. Operating expenses Year ended 2024 2023 2022 $m $m $m Gross employee compensation and benefits 20,153 19,623 19,288 Capitalised wages and salaries (1,688) (1,403) (1,285)  Property and equipment 4,786 4,285 4,949 Amortisation and impairment of intangibles 2,235 1,827 1,701 UK bank levy 249 339 13 Legal proceedings and regulator",
+          "red with 2024.  – Our target basis operating expenses for 2025  excludes the direct cost impact of the business  disposals in Canada and Argentina, notable  items and the impact of retranslating the prior  year results of hyperinflationary economies at  constant currency. – Our cost target includes the impact of  simplification-related saves associated with our  announced reorganisation, which aims to  generate approximately $0.3bn of cost  reductions in 2025, with a commitment to an  – annualised reduction",
+          ". Results – on a constant currency basis  2024 2023 2022 2024 vs 2023 of which strategic  transactions 2 $m $m $m $m % $m Net operating income 28,674 26,848 20,772 1,826 7 (636)  ECL (1,335) (935) (1,160) (400) (43) (22)  Operating expenses (15,204) (14,352) (14,141) (852) (6) 651  Share of profit in associates and JVs 47 64 29 (17) (27) —  Profit before tax 12,182 11,625 5,500 557 5 (7)  RoTE 1  (%) 29.0 28.5 13.8  1 RoTE (annualised) in 2023 and 2022 included a 0.3 and 4.7 percentage point adverse impact "
+        ]
+      },
+      {
+        "id": "rag-07",
+        "category": "answerable",
+        "question": "2024 年平均有形股本回报率（RoTE）是多少？",
+        "answer": "2024年实现的平均有形股本回报率（RoTE）为14.6%，剔除重大项目后的RoTE为16.0%。",
+        "refused": false,
+        "retrieved": [
+          "27",
+          "4",
+          "10",
+          "16",
+          "88"
+        ],
+        "gold_sources": [
+          8,
+          10
+        ],
+        "supporting": [
+          "3",
+          "8",
+          "10",
+          "13",
+          "27",
+          "95",
+          "105"
+        ],
+        "hit": true,
+        "contexts": [
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          " quarter 2025 results  announcement.  Outlook  – We have announced measures to simplify the  Group and we are focused on opportunities  that build on our strong platform for growth. – We are now targeting a mid-teens return on  average tangible equity (‘RoTE’) in each of  the three years from 2025 to 2027 excluding  notable items, while acknowledging the  outlook for interest rates remains volatile and  uncertain, particularly in the medium term. – We expect banking NII of around $42bn in  2025. Our current",
+          " responsibility as delivering  sustainable strategic growth for our  shareholders. This begins by putting our  customers at the centre of everything we do.  Our financial strength, international network,  heritage, and brand mean we build upon firm  foundations.  We look to the future with confidence. We begin from a position of strength, which  is reinforced by our 2024 performance.  During the year, we delivered a return on  average tangible equity (‘RoTE’) of 14.6%.  This includes several notable items, ",
+          "c Annual Report and Accounts 2024 13 Strategic report  Our ambitions Mid-teens RoTE extended During 2024, we announced our intention to  target a mid-teens RoTE1, excluding the  impact of notable items, for 2025. Alongside  our 2024 annual results, we have extended  this target to each of 2025, 2026 and 2027.  We will consider our cost and investment  plans within this framework.  Simplification  With our 2024 results, we have announced  that we aim to generate approximately  $0.3bn of cost reductions in 20",
+          "ey financial measures: basis of  preparation Return on average tangible equity  excluding notable items From 1 January 2024, we revised the adjustments made to our  adjusted RoTE measure. Prior to this, we adjusted RoTE for the  impact of strategic transactions and the impairment of our investment  in Bank of Communications Co., Limited (‘BoCom‘), whereas from  1 January 2024 we have excluded all notable items. This was  intended to improve alignment with the treatment of notable items in  our other income "
+        ]
+      },
+      {
+        "id": "rag-08",
+        "category": "answerable",
+        "question": "2024 年中国内地业务的税前利润是多少？其中来自交通银行的利润份额是多少？",
+        "answer": "2024年中国内地业务税前利润为32亿美元，其中来自交通银行（BoCom）联营公司的利润份额为22亿美元。",
+        "refused": false,
+        "retrieved": [
+          "14",
+          "4",
+          "105",
+          "38",
+          "115"
+        ],
+        "gold_sources": [
+          14
+        ],
+        "supporting": [
+          "14",
+          "31",
+          "38"
+        ],
+        "hit": true,
+        "contexts": [
+          " markets, including mainland China, India,  Singapore and the UAE. These markets are  well connected to international trade, wealth  and investment flow and are key to our  international connectivity. In 2024, we reported profit before tax of  $3.2bn in our mainland China business,  including a $2.2bn share of profit from our  associate, BoCom. We have a strong client  franchise in mainland China, helping to  support clients’ international needs. We were  the Best Trade/Supply Chain Finance Bank in  202410.",
+          " 2024, these included a gain of  $4.8bn on the disposal of our banking business  in Canada, the impacts of the disposal of our  business in Argentina, comprising a $1.0bn loss  on disposal, and the recycling of foreign  currency reserve losses and other reserves of  $5.2bn. In 2023, notable items included an  impairment of $3.0bn on our associate, Bank of  Communications Co., Limited (‘BoCom’),  disposal losses of $1.0bn on Treasury  repositioning and risk management and a  $1.6bn gain recognised on the acq",
+          "enses (4,837) (4,947) (14,544) (9,013) 298 (33,043)  Share of profit in associates and joint ventures less  impairment — — 1 47 2,864 2,912  Profit before tax 9,121 6,605 11,407 3,972 1,204 32,309  RoTE (%) c.38% c.25% c.14% c.16% c.1% 14.6% At 31 Dec 2024 Loans and advances to customers (net) 235,208 267,293 284,701 136,325 7,131 930,658  Customer accounts 507,389 330,012 557,796 259,443 315 1,654,955  RWAs 143,668 133,495 388,047 85,673 87,371 838,254  2024 Hong Kong UK Corporate  and  Institutional  Bank",
+          "ing in relation to the  FDIC special assessment and the UK bank levy.  Share of profit from associates and joint  ventures of $2.9bn increased by $3.2bn on a  constant currency basis, primarily reflecting the  non-recurrence of an impairment charge of  $3.0bn in 2023 relating to our investment in  BoCom and an increase in share of profit from  SAB. Results – on a constant currency basis 2024 2023 2022 2024 vs 2023 of which strategic  transactions 1 $m $m $m $m % $m Net operating income (1,929) (103) (1,934)",
+          "serve losses and $0.4bn of other reserves losses. 2 Amounts relate to restructuring provisions recognised in 2024 and reversals of restructuring provisions recognised during 2022. Selected countries/territories results1 2024 UK2 Hong Kong Mainland China US Mexico $m $m $m $m $m Revenue3 21,017 22,038 4,078 4,216 3,573  ECL (526) (1,273) (121) (81) (864)  Operating expenses (13,725) (8,886) (2,971) (3,350) (1,994)  Share of profit/(loss) in associates and joint ventures 24 8 2,241 — 15  Profit before tax 6,7"
+        ]
+      },
+      {
+        "id": "rag-09",
+        "category": "answerable",
+        "question": "2024 年集团向股东返还的总金额是多少？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "8",
+          "27",
+          "4",
+          "16",
+          "9"
+        ],
+        "gold_sources": [
+          12
+        ],
+        "supporting": [
+          "12"
+        ],
+        "hit": false,
+        "contexts": [
+          "t. Combined  with our sustained levels of profitability, this  led to greater earnings and dividends per  share for our shareholders.  Dividends paid in 2024, together with a more  than 20% increase in the share price,  delivered a total shareholder return for the  year of more than 30%.  Our performance demonstrates that our  strategy is working. To maintain, and indeed  accelerate, the momentum, we are being  very deliberate in creating investment  capacity for priority areas, focusing on long- term strat",
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          "nly due to capital generation and a  reduction in RWAs through strategic  transactions, offset by dividends, share buy- backs and organic balance sheet growth. – The Board has approved a fourth interim  dividend of $0.36 per share, resulting in a  total of $0.87 per share in respect of 2024,  inclusive of a special dividend of $0.21 per  share. We also intend to initiate a share buy- back of up to $2bn, which we expect to  complete by our first quarter 2025 results  announcement.  Outlook  – We have announc",
+          "pect to pay a further $6.4bn through the  fourth interim dividend and we expect to  repurchase $11bn of our shares for  cancellation with respect to 2024. The capital  generated on the disposal of our Canadian  banking operations supported the $0.21 per  share special dividend paid in 2Q24,  representing a further $3.9bn distribution. We aim to maintain a CET1 capital ratio in the  range of 14 to 14.5% over the medium term.  Our primary use of capital generation is to  pay an ordinary dividend of 50% of pro",
+          "ccounts 2024 Sir Mark E Tucker Group Chairman 2024 was a year of strong performance. We continued to help  our customers navigate challenges and capture meaningful  opportunities, whilst providing increased returns for our  shareholders. Looking ahead, we have the right people and  structure to drive accelerated growth in 2025 and beyond.  \"Our performance  demonstrates that our  strategy is working. To  maintain, and indeed  accelerate, the  momentum, we are  being very deliberate in  creating investment  "
+        ]
+      },
+      {
+        "id": "rag-10",
+        "category": "answerable",
+        "question": "2024 年的银行净利息收入（banking NII）是多少？",
+        "answer": "2024年的银行净利息收入（banking NII）为437亿美元（$43.7bn）。",
+        "refused": false,
+        "retrieved": [
+          "93",
+          "92",
+          "4",
+          "88",
+          "15"
+        ],
+        "gold_sources": [
+          3
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "29",
+          "31",
+          "93"
+        ],
+        "hit": true,
+        "contexts": [
+          "ost to fund these  trading and fair value net assets is reported in NII. Banking NII was $43.7bn in 2024. The funding costs associated with  generating trading and fair value income were $11.4bn, an increase of  $2.7bn compared with 2023, primarily reflecting redeployment of our  commercial surplus to net trading and fair value assets. Banking NII  also deducts third-party NII related to our insurance business, which  was $0.4bn, stable compared with 2023. The movement in banking  NII also included a reduct",
+          "ments and thus higher cost. 2 Including interest-bearing bank deposits only.  3 Including interest-bearing customer accounts only.  Net interest income (‘NII’) for 2024 was $32.7bn, a decrease of  $3.1bn or 9% compared with 2023. The decrease included a $2.7bn  reduction mainly due to the redeployment of our commercial surplus  to net trading and fair value assets, for which the associated revenue  is reported in ‘net income on financial instruments held for trading or  managed on a fair value basis‘. The f",
+          "m. – We expect banking NII of around $42bn in  2025. Our current expectation reflects  modelling of a number of market-dependent  factors. If changes in these factors impact the  output of our modelling, we would update our  expectation for 2025 Banking NII in future  quarterly results announcements. – We retain a Group-wide focus on cost  discipline. We are targeting growth in target  basis operating expenses of approximately  3% in 2025 compared with 2024.  – Our target basis operating expenses for 2025  ",
+          " relevant  periods within that calendar year. For a reconciliation from return on  equity (‘RoE’) to RoTE excluding notable items, see page 122.  We do not reconcile our forward RoTE guidance to the equivalent  reported measure. Banking net interest income Banking net interest income (‘banking NII’) adjusts our NII, primarily  for the impact of funding trading and fair value activities reported in  interest expense. It represents the Group’s banking revenue that is  directly impacted by changes in interest ",
+          " rise in profits in recent years has been a  return of central bank interest rates and  government bond yields to levels more  typical of prior decades.  Over the period from 2022 to 2024, we  increased both the size and duration of our  structural hedge, further stabilising our  banking NII. The sensitivity of our banking NII  to a 100bps parallel downward shift in  interest rates has reduced from c.$(7)bn at  30 June 2022, to $(2.9)bn at 31 December  2024. This was primarily due to hedging  actions, altho"
+        ]
+      },
+      {
+        "id": "rag-11",
+        "category": "answerable",
+        "question": "2024 年完成行为与金融犯罪合规培训的员工比例是多少？目标要求是多少？",
+        "answer": "2024年完成行为培训的员工比例为99%；目标要求为每年至少98%的员工完成行为与金融犯罪培训。",
+        "refused": false,
+        "retrieved": [
+          "19",
+          "72",
+          "71",
+          "69",
+          "82"
+        ],
+        "gold_sources": [
+          19
+        ],
+        "supporting": [
+          "19",
+          "71",
+          "82"
+        ],
+        "hit": true,
+        "contexts": [
+          "d by Black heritage  colleagues in the UK and US  combined by 20256. Inclusion index score. (2023: 78%)  Ambition: Maintain 75% in the  Snapshot Inclusion index. Governance:  Acting  responsibly Conduct training 8 Customer satisfaction 9 99% 4 out of 6 3 out of 6 Employees who completed  conduct training in 2024. (2023: 98%) Target: At least 98% of employees  complete conduct and financial  crime training each year. WPB markets that sustained top- three rank and/or improved in  customer satisfaction. (2023:",
+          "olleagues in 2024. (2023: 5.3 million) 29.6 hours  Training hours per FTE in 2024.  (2023: 23.9 hours) Energising our  colleagues for growth We aim to provide our colleagues with  the opportunity to develop critical skills  while creating a pipeline of talent to  support our strategic ambitions. It is  essential that we promote effective  leadership and foster an environment  that inspires our colleagues to grow. In  2024, our focus has been on: – Our Digital Acceleration Programme,  which aims to create dy",
+          "orward Alliance’s  Thriving at Work Benchmark, for which we  received a global score of 91 points, 14 points  ahead of the global average.  In 2024, mental health awareness training  was completed by more than 227,000  colleagues as part of Global Mandatory  Training. Our voluntary mental health  education modules have been completed  over 37,000 times, with 74% being  managers. We have also expanded the global  reach of mental health champions in our  Mindfulness Network by nearly 27%.  Physical well-being",
+          "crease in colleagues able to state their  opinion without fear of negative  consequences, with 73% of colleagues  feeling able to do so, up by one percentage  point from 2023. We strive to improve awareness and  education around poor behaviours and  strengthen our understanding and response  to these issues across all levels of the  organisation. In 2024, to ensure continued  high-quality investigations into conduct  concerns, we introduced six new investigator  training modules aimed at the Human  Resource",
+          " which we operate. The financial crime risk  framework, which is overseen by the Board, is  supported by our financial crime policy that is  designed to enable adherence to applicable  laws and regulations globally. Annual global  mandatory training is provided to all colleagues,  with additional targeted training tailored to  certain individuals. We carry out regular risk  assessments to identify where we need to  respond to evolving financial crime threats, as  well as to monitor and test our financial cr"
+        ]
+      },
+      {
+        "id": "rag-12",
+        "category": "answerable",
+        "question": "剔除 notable items 后，2024 年收入是多少？",
+        "answer": "剔除notable items后，2024年收入为674.34亿美元（$67,434m）。",
+        "refused": false,
+        "retrieved": [
+          "30",
+          "13",
+          "27",
+          "88",
+          "29"
+        ],
+        "gold_sources": [
+          4
+        ],
+        "supporting": [
+          "4"
+        ],
+        "hit": false,
+        "contexts": [
+          "249 440 2  Revenue excluding notable items 67,434 65,723 54,222 1,711 3  Profit before tax excluding notable items 34,122 33,198 23,560 924 3  1 For details, see ‘Impact of strategic transactions‘ on page 102. 2024 2023 2022 Notable items $m $m $m Revenue Disposals, acquisitions and related costs 1  (1,343) 1,298 (2,737)  Fair value movements on financial instruments 2  — 14 (618)  Restructuring and other related costs — — (247)  Disposal losses on Markets Treasury repositioning — (977) —  Early redemption ",
+          "before tax  excluding notable items and the impact of  foreign currency translation. On this basis,  profit before tax was $34.1bn, compared with  $32.7bn in 2023. Our reported revenue of  $65.9bn was broadly stable compared with  2023. Excluding notable items and in  constant currency, we grew revenue by 5%  compared with 2023.  In 2024, we achieved a RoTE of 14.6%.  During 2024, we reported several notable  items, in particular related to strategic  disposals. To facilitate comparison across  periods, we ",
+          "2024,  we revised the adjustments made to RoTE  from excluding only the impact of strategic  transactions and the impairment of BoCom, to  exclude all notable items. This was intended to  improve alignment with the treatment of  notable items in our other income statement  disclosures. RoTE excluding notable items has  been re-presented for 2023 on the revised  basis and we no longer disclose RoTE  excluding strategic transactions and the  impairment of BoCom. RoTE excluding notable items was 16.0%, a  decr",
+          "basis We established a dividend payout ratio target basis of 50% for 2023  and 2024, and we continue to target a payout ratio target basis of  50% for 2025. For the purposes of computing our dividend payout  ratio target basis, we exclude from earnings per share material  notable items and related impacts. Material notable items are  components of our income statement that management would  consider as outside the normal course of business and generally non- recurring in nature, which are excluded from our ",
+          "aterial  notable item is dependent on the nature of  each item in conjunction with the financial  impact on the Group’s income statement. The tables on pages 99 to 101 and pages 113  to 118 detail the effects of notable items on  each of our global business segments and  legal entities during 2024, 2023 and 2022. Management view of revenue on a  constant currency basis Our global business segment commentary  includes tables that provide breakdowns of  revenue on a constant currency basis by  major product. "
+        ]
+      },
+      {
+        "id": "rag-13",
+        "category": "multi_hop",
+        "question": "2024 年税前利润同比增加的 20 亿美元中，有多少来自 notable items 的净正面影响？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "29",
+          "13",
+          "4",
+          "30",
+          "31"
+        ],
+        "gold_sources": [
+          3,
+          4
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "5",
+          "29",
+          "30",
+          "33",
+          "38",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "98",
+          "101",
+          "115"
+        ],
+        "hit": true,
+        "contexts": [
+          " performance  commentary that follows compares our  results in 2024 with those in 2023. Reported results (vs 2023) Reported profit Reported profit before tax of $32.3bn was  $2.0bn or 6% higher. This included a net  $1.0bn favourable impact from notable items.  In 2024, notable items included a gain of  $4.8bn following the disposal of our banking  business in Canada, and losses associated  with the sale of our business in Argentina,  comprising a $1.0bn loss on disposal, as well  as the recycling of foreig",
+          "before tax  excluding notable items and the impact of  foreign currency translation. On this basis,  profit before tax was $34.1bn, compared with  $32.7bn in 2023. Our reported revenue of  $65.9bn was broadly stable compared with  2023. Excluding notable items and in  constant currency, we grew revenue by 5%  compared with 2023.  In 2024, we achieved a RoTE of 14.6%.  During 2024, we reported several notable  items, in particular related to strategic  disposals. To facilitate comparison across  periods, we ",
+          "uctions in 2025, with a commitment to an  – annualised reduction of $1.5bn in our cost  base expected by the end of 2026. To deliver  these reductions, we plan to incur severance  and other up-front costs of $1.8bn over 2025  and 2026, which will be classified as notable  items. We are focused on opportunities where  we have a clear competitive advantage and  accretive returns, and we aim to redeploy  around $1.5bn of additional costs from non- strategic activities into these areas, over the  medium term.  ",
+          "249 440 2  Revenue excluding notable items 67,434 65,723 54,222 1,711 3  Profit before tax excluding notable items 34,122 33,198 23,560 924 3  1 For details, see ‘Impact of strategic transactions‘ on page 102. 2024 2023 2022 Notable items $m $m $m Revenue Disposals, acquisitions and related costs 1  (1,343) 1,298 (2,737)  Fair value movements on financial instruments 2  — 14 (618)  Restructuring and other related costs — — (247)  Disposal losses on Markets Treasury repositioning — (977) —  Early redemption ",
+          "043) (31,494) (32,229) (1,549) (5) 992  Operating profit 29,397 30,159 13,743 (762) (3)  Share of profit in associates and joint ventures less impairment 2,912 (256) 2,559 3,168 >100 —  Profit before tax 32,309 29,903 16,302 2,406 8 (2,862)  Revenue excluding notable items 67,434 64,489 53,383 2,945 5  Profit before tax excluding notable items 34,122 32,680 23,057 1,442 4  1 For details, see ‘Impact of strategic transactions‘ on page 102. Profit before tax of $32.3bn was $2.4bn  higher than in 2023 on a con"
+        ]
+      },
+      {
+        "id": "rag-14",
+        "category": "multi_hop",
+        "question": "如果把交通银行的利润份额剔除，2024 年中国内地业务自身的税前利润大约是多少？",
+        "answer": "根据上下文，2024年中国内地业务税前利润为32亿美元，其中来自交通银行联营公司的利润份额为22亿美元，剔除后自身税前利润约为10亿美元。",
+        "refused": false,
+        "retrieved": [
+          "14",
+          "4",
+          "105",
+          "104",
+          "115"
+        ],
+        "gold_sources": [
+          14
+        ],
+        "supporting": [
+          "14",
+          "31",
+          "38"
+        ],
+        "hit": true,
+        "contexts": [
+          " markets, including mainland China, India,  Singapore and the UAE. These markets are  well connected to international trade, wealth  and investment flow and are key to our  international connectivity. In 2024, we reported profit before tax of  $3.2bn in our mainland China business,  including a $2.2bn share of profit from our  associate, BoCom. We have a strong client  franchise in mainland China, helping to  support clients’ international needs. We were  the Best Trade/Supply Chain Finance Bank in  202410.",
+          " 2024, these included a gain of  $4.8bn on the disposal of our banking business  in Canada, the impacts of the disposal of our  business in Argentina, comprising a $1.0bn loss  on disposal, and the recycling of foreign  currency reserve losses and other reserves of  $5.2bn. In 2023, notable items included an  impairment of $3.0bn on our associate, Bank of  Communications Co., Limited (‘BoCom’),  disposal losses of $1.0bn on Treasury  repositioning and risk management and a  $1.6bn gain recognised on the acq",
+          "enses (4,837) (4,947) (14,544) (9,013) 298 (33,043)  Share of profit in associates and joint ventures less  impairment — — 1 47 2,864 2,912  Profit before tax 9,121 6,605 11,407 3,972 1,204 32,309  RoTE (%) c.38% c.25% c.14% c.16% c.1% 14.6% At 31 Dec 2024 Loans and advances to customers (net) 235,208 267,293 284,701 136,325 7,131 930,658  Customer accounts 507,389 330,012 557,796 259,443 315 1,654,955  RWAs 143,668 133,495 388,047 85,673 87,371 838,254  2024 Hong Kong UK Corporate  and  Institutional  Bank",
+          "ansactions.  Constant currency results 2024 Wealth and Personal Banking Commercial Banking Global Banking and Markets Corporate Centre Total $m $m $m $m $m Revenue 54 179 — (1,209) (976)  ECL — (3) — — (3)  Operating expenses (7) (76) — (191) (274)  Share of profit in associates and joint ventures — — — — —  Profit before tax 47 100 — (1,400) (1,253)  – HSBC Innovation Banking1 100 — 100  – Retail banking operations in France 47 (1) 46  – Banking business in Canada 4,773 4,773  – Business in Argentina (6,17",
+          "serve losses and $0.4bn of other reserves losses. 2 Amounts relate to restructuring provisions recognised in 2024 and reversals of restructuring provisions recognised during 2022. Selected countries/territories results1 2024 UK2 Hong Kong Mainland China US Mexico $m $m $m $m $m Revenue3 21,017 22,038 4,078 4,216 3,573  ECL (526) (1,273) (121) (81) (864)  Operating expenses (13,725) (8,886) (2,971) (3,350) (1,994)  Share of profit/(loss) in associates and joint ventures 24 8 2,241 — 15  Profit before tax 6,7"
+        ]
+      },
+      {
+        "id": "rag-15",
+        "category": "multi_hop",
+        "question": "2024 年 CET1 比率较 2023 年变动了多少？报告给出的主要原因是什么？",
+        "answer": "2024年CET1比率为14.9%，较2023年的14.8%小幅上升0.1个百分点。主要原因是资本生成、战略交易降低风险加权资产的影响，被股息、股份回购和资产负债表自然增长抵消。",
+        "refused": false,
+        "retrieved": [
+          "31",
+          "40",
+          "27",
+          "12",
+          "16"
+        ],
+        "gold_sources": [
+          4,
+          12
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "10",
+          "12",
+          "16",
+          "27",
+          "31",
+          "39",
+          "40"
+        ],
+        "hit": true,
+        "contexts": [
+          "he impact on our capital  ratios as a result of stress. Our CET1 capital ratio at 31 December 2024  was 14.9%, up marginally compared with the  prior year as capital generation and a reduction  in RWAs through strategic transactions were  offset by dividends, share buy-backs and  organic balance sheet growth. In January 2025,  the PRA announced the delay of Basel 3.1  implementation to 1 January 2027 pending US  developments. We expect that the impact on  our CET1 ratio will be a modest benefit. Liquidity p",
+          " senior  management in allocating financial resources  optimally to finance sustainable growth and  manage risk exposures.  At 31 December 2024 our CET1 ratio and  ECL charges were within their defined risk  appetite thresholds. Our CET1 capital ratio at  31 December 2024 was 14.9%, up marginally  compared with the prior year as capital  generation and a reduction in RWAs through  strategic transactions were offset by  dividends, share buy-backs and organic  balance sheet growth. For further details of  the",
+          "with a commitment to an  annualised reduction of $1.5bn in our cost  base expected by the end of 2026. To deliver  these reductions, we plan to incur severance  and other up-front costs of $1.8bn over 2025  and 2026, which will be classified as notable  items.  Capital and dividend policy CET1 ratio  14.9% Dividend payout ratio in respect of 2024  50% on a dividend payout ratio target basis. At 31 December 2024, our CET1 capital ratio  was 14.9% which was higher than our  medium-term target range of 14% to ",
+          "l,  commercial and innovation-focused bank  which continues to build market share.  Customers in Hong Kong and the UK with  global banking needs will be able to access  the power of our international network  through our CIB and IWPB businesses, that  are anchored in these two leading  international financial centres. HSBC Holdings plc Annual Report and Accounts 2024 9 Strategic report  Financial strength CET1 ratio  14.9% (2023: 14.8%)  In 2024, our strong financial performance  enabled us to announce $26.",
+          "g cost savings  generated through business disposals for  incremental re-investment into our core  franchises. This would be in addition to our  ongoing investments. Capital generation Our business model is designed to be highly  capital generative. In 2024, our common  equity tier 1 (‘CET1’) capital ratio grew from  14.8% to 14.9% as at 31 December 2024.  During the calendar year, we paid $5.5bn  ordinary dividends with respect to 2024, we  expect to pay a further $6.4bn through the  fourth interim dividen"
+        ]
+      },
+      {
+        "id": "rag-16",
+        "category": "unanswerable",
+        "question": "汇丰的 SWIFT/BIC 代码是什么？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "39",
+          "11",
+          "120",
+          "15",
+          "34"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          " and Iran.  The sanctions and trade restrictions imposed  by the US, the UK, and the EU, as well as  other countries, as a result of the Russia- Ukraine war, remain complex, far-reaching  and evolving. The US has expanded the reach  of its secondary sanctions regime, which  includes broad discretion to impose severe  sanctions on non-US banks. The imposition of  such sanctions against any non-US HSBC  entity could result in significant adverse  commercial, operational and reputational  consequences for HSBC",
+          ", unlocking HSBC’s full potential. Designed to deliver strong, sustainable  strategic growth For 160 years, HSBC has been defined by its  financial strength and international network.  Both remain enablers of everything we do.  What is changing is the clarity, speed and  intensity with which we are repositioning  HSBC around our four complementary, clearly  differentiated businesses. Corporate and Institutional Banking (‘CIB’) is  an international wholesale bank with  significant competitive advantages. It ",
+          "$m $m $m UK1 2,487 3,446 12 845 6,790  – of which: HSBC UK Bank plc (ring-fenced bank) 2,628 4,367 146 72 7,213  – of which: HSBC Bank plc (non-ring-fenced bank) 534 97 657 (359) 929  – of which: Holdings and other (675) (1,018) (791) 1,132 (1,352)  France 60 196 127 (153) 230  Germany 27 45 137 5 214  Hong Kong 7,453 3,212 1,704 (482) 11,887  Australia 141 378 99 (9) 609  India 96 448 875 269 1,688  Indonesia 7 156 63 (5) 221  Mainland China2 (167) 235 678 2,481 3,227  Malaysia 143 155 219 (3) 514  Singapo",
+          "e and stability at its core, helping to  create lasting value for both our customers  and stakeholders.  By harnessing AI capabilities, HSBC aims to  improve customer service through AI  supported mobile apps and strengthened  contact centre capabilities, as well as  improving process efficiency in onboarding,  know-your-customer, and credit applications.  We are supporting our engineers through the  scaled roll out of coding assistants to  improve technology productivity, and we are  using AI to help prote",
+          "tional ambitions  and sustainability transitions. CMB  delivered value to clients through our  international network, financing  strength, digital capabilities and our  universal banking offering, including our  global trade and payments solutions. HSBC has been recognised as the World’s best  Trade Finance Bank and the World’s best  Payments and Treasury Bank (Euromoney  Awards) and we continue to invest in  capabilities to assist clients in fulfilling their  business needs more efficiently.  We have compl"
+        ]
+      },
+      {
+        "id": "rag-17",
+        "category": "unanswerable",
+        "question": "2024 年集团行政总裁获得的年度奖金金额是多少？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "26",
+          "27",
+          "70",
+          "16",
+          "100"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "iate  against the targets set at the start of the year  for financial, strategic and personal measures. The Committee also carefully considered the  executive Directors’ pay outcomes in the  context of pay decisions made for the wider  workforce and determined that these were  an appropriate reflection of Group, business  and individual performance delivered in 2024. Executive Directors’ scorecard outcomes  (% of maximum opportunity) 2024 annual incentive Sir Noel Quinn 77.81% Georges Elhedery 78.79% 2022–2",
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          " colleagues’  service anniversaries every five years up to  30 years of service, and at 40 years. In 2024  over 28,000 anniversaries were celebrated. Share plans are another way to empower  colleagues to participate in the Group’s  success. In 2024, we invited 194,000  colleagues to participate in our share plans  and 93% of colleagues globally now have  access to a share plan.  Supporting our colleagues to grow To help our colleagues to grow personally and  professionally, we are committed to  supporting t",
+          "c Annual Report and Accounts 2024 13 Strategic report  Our ambitions Mid-teens RoTE extended During 2024, we announced our intention to  target a mid-teens RoTE1, excluding the  impact of notable items, for 2025. Alongside  our 2024 annual results, we have extended  this target to each of 2025, 2026 and 2027.  We will consider our cost and investment  plans within this framework.  Simplification  With our 2024 results, we have announced  that we aim to generate approximately  $0.3bn of cost reductions in 20",
+          "t in October 2024, effective from 1 January 2025 the  Group’s operating segments will comprise four new businesses –  Hong Kong, UK, Corporate and Institutional Banking, and International  Wealth and Premier Banking – along with Corporate Centre. These  will replace our previously reported operating segments up to  31 December 2024.   For further details of our new operating segments effective from 1 January  2025, see page 103. Basis of preparation The Group CEO, supported in 2024 by the rest of the GEC, i"
+        ]
+      },
+      {
+        "id": "rag-18",
+        "category": "unanswerable",
+        "question": "2025 年第一季度的营业收入具体是多少？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "4",
+          "27",
+          "106",
+          "88",
+          "36"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "m. – We expect banking NII of around $42bn in  2025. Our current expectation reflects  modelling of a number of market-dependent  factors. If changes in these factors impact the  output of our modelling, we would update our  expectation for 2025 Banking NII in future  quarterly results announcements. – We retain a Group-wide focus on cost  discipline. We are targeting growth in target  basis operating expenses of approximately  3% in 2025 compared with 2024.  – Our target basis operating expenses for 2025  ",
+          "Our target  basis operating expenses for 2025 excludes  the direct cost impact of the business  disposals in Canada and Argentina, notable  items and the impact of retranslating the prior  year results of hyperinflationary economies at  constant currency. Our cost target includes the impact of  simplification-related savings associated with  our announced reorganisation, which aims to  generate approximately $0.3bn of cost  reductions in 2025, with a commitment to an  annualised reduction of $1.5bn in our c",
+          "177 1,015 1,286  – other income 2,392 571 1,337 403 81  ECL (1,335) (1,334) — (1) —  Net operating income 27,339 21,508 1,840 2,610 1,381  Total operating expenses (15,204) (11,728) (716) (1,752) (1,008)  Operating profit 12,135 9,780 1,124 858 373  Share of profit in associates and joint ventures 47 14 33 — —  Profit before tax 12,182 9,794 1,157 858 373  2023 Net operating income before change in expected credit losses and other credit  impairment charges2 26,848 21,920 1,396 2,268 1,264  – net interest i",
+          "gs from actions taken  during 2023.  We are targeting growth in target basis operating expenses of  approximately 3% in 2025 compared with 2024. Our target basis  operating expenses for 2025 excludes the direct cost impact of the  business disposals in Canada and Argentina, notable items and the  impact of retranslating the prior year results of hyperinflationary  economies at constant currency. Our cost target includes the impact of simplification-related saves  associated with our announced reorganisation",
+          "n in ECL  compared with 2023. 36% Increase in Securities Financing revenue  compared with 2023, primarily from new  client onboarding in prime finance. Results – on a constant currency basis  2024 2023 2022 2024 vs 2023 of which strategic  transactions 1 $m $m $m $m % $m Net operating income 17,529 15,771 14,542 1,758 11 (49)  ECL (235) (317) (578) 82 26 (11)  Operating expenses (10,231) (9,872) (9,403) (359) (4) 59  Share of profit/(loss) in associates and JVs — — (2) — — —  Profit before tax 7,063 5,582 4"
+        ]
+      },
+      {
+        "id": "rag-19",
+        "category": "unanswerable",
+        "question": "汇丰 2024 年在巴西的员工人数是多少？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "97",
+          "30",
+          "71",
+          "95",
+          "115"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "ess in Canada — 63,001  – retail banking operations in France — 22,307  – private banking business in Germany 2,085 —  – business in South Africa 3,294 —  – other 20 642  Combined customer deposits 1,660,354 1,697,597  Currency translation — (38,656)  Combined customer deposits at constant currency 1,660,354 1,658,941  1 On 9 April 2024, HSBC Latin America B.V. entered into a binding agreement to sell its business in Argentina to Grupo Financiero Galicia (‘Galicia‘). The sale was  completed on 6 December 20",
+          " as 2023 included adjustments relating to  prior years, and from the non-recurrence of a  $0.2bn charge incurred in the US relating to the  FDIC special assessment. The number of employees expressed in full-time  equivalent staff (‘FTE’) at 31 December 2024  was 211,304, a decrease of 9,557 compared  with 31 December 2023, primarily reflecting the  completion of the sales of our banking business  in Canada, our retail banking operations in  France and our business in Argentina. The  number of contractors at",
+          "g Flexible working remains one of the top  reasons colleagues say they would  recommend HSBC to someone else, with  74% of colleagues saying flexible working is  the aspect of our well-being programme they  value the most. In 2024, 85% of our  colleagues practised some form of flexible  working arrangement, with 75% of  colleagues working in a hybrid way. We acknowledged that not all our colleagues  had the right balance between working at  home or in the office. In 2024, we have found  that a better balanc",
+          "usinesses Wealth and Personal Banking 119,791 128,399 128,764  Commercial Banking 45,190 45,884 43,640  Global Banking and Markets 45,983 46,241 46,435  Corporate Centre 340 337 360  At 31 Dec 211,304 220,861 219,199  1 Represents the number of full-time equivalent people with contracts of service with the Group who are being paid at the reporting date. Financial summary 92 HSBC Holdings plc Annual Report and Accounts 2024  Operating expenses of $33.0bn were $1.0bn or 3% higher than in  2023, including a fa",
+          "trading entities’ RWAs balance at 31 December 2024 includes HSBC Argentina operational risk RWAs, due to the averaging calculation and will roll off over  future reporting cycles. Legal entities 112 HSBC Holdings plc Annual Report and Accounts 2024  Summary information – legal entities and selected countries/territories Legal entity reported and constant currency results¹ 2024 HSBC  UK  Bank plc HSBC  Bank plc The  Hongkong  and  Shanghai  Banking  Corpo- ration  Limited HSBC  Bank  Middle  East  Limited HS"
+        ]
+      },
+      {
+        "id": "rag-20",
+        "category": "unanswerable",
+        "question": "汇丰 2024 年信用卡的发卡总量是多少张？",
+        "answer": "I_DO_NOT_KNOW",
+        "refused": true,
+        "retrieved": [
+          "81",
+          "14",
+          "8",
+          "112",
+          "100"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "rcial Banking  In 2024 we received 46,276 customer and  client complaints, an increase of 0.8% from  2023. Of the overall volume, 32,748 came  from HSBC UK, 8,779 from Asia-Pacific and  the remainder from the rest of our global  markets.  The most common complaint related to  servicing and transactions, with the largest  volume of complaints globally coming from  business banking customers, representing  68.2% of our total complaints. Although we have seen a minor increase in  complaint volumes, this reflec",
+          "ustomers in WPB, with  the rate of growth accelerating from 345,000 in  the first half of 2024, to 454,000 in the second  half. Our 2024 full year new-to-bank customers  numbers grew by 66% compared with 2023.  We also continued to solidify our leadership  position and grow our WPB business. In our  wholesale businesses, we focused on  maintaining our leading position across multiple  products. In trade finance, our market share  was 29.2%, an increase of 3.5 percentage  points from 20237. UK HSBC UK has a ",
+          "ance.  In parallel, our strategic investments are  yielding significant results. In Wealth, for  instance, revenue grew by 18% in 2024,  including a 21% increase in fee and other  income. The continued inflow of Net New  Invested Assets and growth in total  customers point to the material upside  opportunity. In Hong Kong, for instance, we  added approximately 800k new-to-bank  customers. Strategic Report 6 HSBC Holdings plc Annual Report and Accounts 2024 Sir Mark E Tucker Group Chairman 2024 was a year of",
+          "w issuances, including in the UK and the US, as well  as new assets, including in our legal entity in Hong Kong.  HSBC Holdings plc Annual Report and Accounts 2024 109 Financial review  Analysis of reported results by legal entities HSBC reported profit/(loss) before tax and balance sheet data 2024 HSBC  UK Bank  plc HSBC  Bank plc The  Hongkong  and  Shanghai  Banking  Corporation  Limited HSBC  Bank  Middle  East  Limited HSBC  North  America  Holdings  Inc. HSBC  Bank  Canada Grupo  Financiero  HSBC,  S.",
+          "impact  on our CET1 ratio will be a modest benefit. RWAs by currency At 31 Dec 2024 $m USD GBP HKD EUR CNY Others Total RWAs 1 205,645 165,684 136,001 67,440 56,561 206,923 838,254  31 Dec 2023 RWAs 1 202,697 155,231 135,701 69,996 57,907 232,582 854,114  1 RWAs include credit risk, market risk and operational risk RWAs. HSBC Holdings plc Annual Report and Accounts 2024 97 Financial review  Global businesses and legal  entities Contents 98 Summary 99 Supplementary analysis of constant currency results and n"
+        ]
+      }
+    ]
+  },
+  "oss-rag": {
+    "summary": {
+      "hit_at_k": 0.8666666666666667,
+      "recall": 0.35867724867724865,
+      "precision": 0.5288888888888889,
+      "abstention": 1.0,
+      "hallucination": 0.0,
+      "numeric_leak": 0.8,
+      "cases": 20
+    },
+    "records": [
+      {
+        "id": "rag-01",
+        "category": "answerable",
+        "question": "2024 年的税前利润是多少？与 2023 年相比增加了多少？",
+        "answer": "2024年报告的税前利润为323亿美元，与2023年相比增加了20亿美元，增幅为6%。",
+        "refused": false,
+        "retrieved": [
+          "27",
+          "32",
+          "29",
+          "13",
+          "8"
+        ],
+        "gold_sources": [
+          3,
+          4
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "8",
+          "10",
+          "13",
+          "27",
+          "29",
+          "31"
+        ],
+        "hit": true,
+        "contexts": [
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          ". Results – on a constant currency basis  2024 2023 2022 2024 vs 2023 of which strategic  transactions 2 $m $m $m $m % $m Net operating income 28,674 26,848 20,772 1,826 7 (636)  ECL (1,335) (935) (1,160) (400) (43) (22)  Operating expenses (15,204) (14,352) (14,141) (852) (6) 651  Share of profit in associates and JVs 47 64 29 (17) (27) —  Profit before tax 12,182 11,625 5,500 557 5 (7)  RoTE 1  (%) 29.0 28.5 13.8  1 RoTE (annualised) in 2023 and 2022 included a 0.3 and 4.7 percentage point adverse impact",
+          "performance  commentary that follows compares our  results in 2024 with those in 2023. Reported results (vs 2023) Reported profit Reported profit before tax of $32.3bn was  $2.0bn or 6% higher. This included a net  $1.0bn favourable impact from notable items.  In 2024, notable items included a gain of  $4.8bn following the disposal of our banking  business in Canada, and losses associated  with the sale of our business in Argentina,  comprising a $1.0bn loss on disposal, as well  as the recycling of foreig",
+          "before tax  excluding notable items and the impact of  foreign currency translation. On this basis,  profit before tax was $34.1bn, compared with  $32.7bn in 2023. Our reported revenue of  $65.9bn was broadly stable compared with  2023. Excluding notable items and in  constant currency, we grew revenue by 5%  compared with 2023.  In 2024, we achieved a RoTE of 14.6%.  During 2024, we reported several notable  items, in particular related to strategic  disposals. To facilitate comparison across  periods, we",
+          "West, and the many  places in-between.  That objective is as relevant and significant  today as it was then.  2024 progress and performance In 2024, we delivered profit before tax of  $32.3bn - an increase of $2.0bn compared  with 2023. Our return on average tangible  equity was 14.6%, or 16% excluding the  impact of notable items.  We delivered increased returns for our  shareholders. The Board approved a fourth  quarterly dividend of $0.36 per share, bringing  the total dividend announced for 2024 to  $0."
+        ]
+      },
+      {
+        "id": "rag-02",
+        "category": "answerable",
+        "question": "2024 年净利息收入是多少？较上年变化多少？",
+        "answer": "2024年净利息收入为327亿美元（即327.33亿美元），较2023年减少31亿美元，降幅为9%。若剔除外币折算差异的不利影响，净利息收入减少14亿美元，降幅为4%。",
+        "refused": false,
+        "retrieved": [
+          "92",
+          "92",
+          "93",
+          "92",
+          "93"
+        ],
+        "gold_sources": [
+          3,
+          4
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "13",
+          "29",
+          "91",
+          "92",
+          "93",
+          "112"
+        ],
+        "hit": true,
+        "contexts": [
+          "eport and Accounts 2024 89 Financial review  Income statement commentary The following commentary compares Group financial performance for the year ended 2024 with 2023, unless otherwise stated. Net interest income Year ended Quarter ended 31 Dec 2024 31 Dec 2023 31 Dec 2022 31 Dec 2024 30 Sep 2024 31 Dec 2023 $m $m $m $m $m $m Interest income 108,631 100,868 52,826 26,004 27,255 26,714  Interest expense (75,898) (65,072) (22,449) (17,819) (19,618) (18,430)  Net interest income 32,733 35,796 30,377 8,185 7,",
+          "ments and thus higher cost. 2 Including interest-bearing bank deposits only.  3 Including interest-bearing customer accounts only.  Net interest income (‘NII’) for 2024 was $32.7bn, a decrease of  $3.1bn or 9% compared with 2023. The decrease included a $2.7bn  reduction mainly due to the redeployment of our commercial surplus  to net trading and fair value assets, for which the associated revenue  is reported in ‘net income on financial instruments held for trading or  managed on a fair value basis‘. The f",
+          "l Report and Accounts 2024  The change in interest income in 2024 compared with 2023 included  an adverse impact of foreign currency translation differences of  $2.7bn. After excluding foreign currency translation differences,  interest income increased by $10.5bn. Interest expense for 2024 of $75.9bn increased by $10.8bn  compared with 2023, primarily due to an increase in market interest  rates, growth in customer accounts with higher proportion for term  deposits and the impact of the early redemption of",
+          "ur portfolio at higher yields. Excluding the unfavourable impact of  foreign currency translation differences, net interest income  decreased by $1.4bn or 4%. NII for the fourth quarter of 2024 was  $8.2bn, up 7% compared with the previous quarter, and down 1%  compared with the fourth quarter of 2023. The increase compared  with 3Q24 was predominantly driven by the non-recurrence of the  adverse impact in 3Q24 from the early redemption of legacy  securities. The decline in NII compared with 4Q23 was predom",
+          "nst the previous  quarter was due to the non-recurrence of an adverse impact from the  early redemption of legacy securities. The year-on-year decline was  primarily due to lower market interest rates. Banking net interest income Year ended Quarter ended 31 Dec 2024 31 Dec 2023 31 Dec 2024 30 Sep 2024 31 Dec 2023 $m $m $m $m $m Net interest income 32,733 35,796 8,185 7,637 8,284  Banking book funding costs used to generate ‘net income from financial instruments  held for trading or managed on a fair value b"
+        ]
+      },
+      {
+        "id": "rag-03",
+        "category": "answerable",
+        "question": "2024 年每股股息是多少？其中特别股息占多少？",
+        "answer": "2024年每股总股息为0.87美元，其中包含的特别股息为每股0.21美元，该特别股息来源于向加拿大皇家银行出售加拿大银行业务的所得，于2024年6月随同2024年第一次中期股息一同派发。",
+        "refused": false,
+        "retrieved": [
+          "28",
+          "91",
+          "27",
+          "27",
+          "4"
+        ],
+        "gold_sources": [
+          3,
+          27
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "8",
+          "27",
+          "28"
+        ],
+        "hit": true,
+        "contexts": [
+          "of other  alternative performance measures are included in ‘Reconciliation of alternative performance measures’ on page 120. 1 In 2024, dividend per share includes the special dividend of $0.21 per ordinary share arising from the proceeds of the sale of our banking business in Canada to Royal  Bank of Canada.  2 In 2024 and 2023, our dividend payout ratio was adjusted for material notable items and related impacts, including all associated income statement impacts relating to  those items. In 2022, our divi",
+          "during the period, which consisted of a fourth interim dividend of $0.31 per ordinary share in respect of the financial year ended  31 December 2023 paid in April 2024 and the first, second and third interim dividends of $0.30 per ordinary share in respect of the financial year ending  31 December 2024. In addition, a special dividend of $0.21 per ordinary share from the Canada sale proceeds was paid in June 2024 along with the first interim  dividend. 8 In 2024 and 2023, our dividend payout ratio was adju",
+          "uting our target basis  dividend payout ratio, we exclude from  dividends per share the special dividend of  $0.21 per share, and we exclude from earnings  per share material notable items and related  impacts. See page 121 for our calculation of  earnings per share. The Board has established a target basis  dividend payout ratio of 50% for 2025,  subject to meeting capital requirements. This  policy is designed to provide sustainable cash  dividends, while retaining the flexibility to  invest and grow the",
+          "% which was higher than our  medium-term target range of 14% to 14.5%.  We intend to continue to manage the CET1  ratio to within this range. The total dividend per share in 2024 of $0.87  included a special dividend of $0.21 per share  that was paid in June following the completion  of the sale of HSBC Bank Canada. On a  dividend payout ratio target basis, this resulted  in a payout ratio of 50% of earnings per share.  For the purposes of computing our target basis  dividend payout ratio, we exclude from",
+          "nly due to capital generation and a  reduction in RWAs through strategic  transactions, offset by dividends, share buy- backs and organic balance sheet growth. – The Board has approved a fourth interim  dividend of $0.36 per share, resulting in a  total of $0.87 per share in respect of 2024,  inclusive of a special dividend of $0.21 per  share. We also intend to initiate a share buy- back of up to $2bn, which we expect to  complete by our first quarter 2025 results  announcement.  Outlook  – We have announc"
+        ]
+      },
+      {
+        "id": "rag-04",
+        "category": "answerable",
+        "question": "2024 年末普通股权一级资本（CET1）比率是多少？集团的中期目标区间是多少？",
+        "answer": "2024年末（2024年12月31日）的普通股权一级资本（CET1）比率为14.9%。\n集团的CET1资本比率中期目标区间为14%至14.5%。",
+        "refused": false,
+        "retrieved": [
+          "16",
+          "27",
+          "31",
+          "16",
+          "5"
+        ],
+        "gold_sources": [
+          3,
+          5
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "5",
+          "10",
+          "12",
+          "16",
+          "27",
+          "31",
+          "39",
+          "40"
+        ],
+        "hit": true,
+        "contexts": [
+          "pect to pay a further $6.4bn through the  fourth interim dividend and we expect to  repurchase $11bn of our shares for  cancellation with respect to 2024. The capital  generated on the disposal of our Canadian  banking operations supported the $0.21 per  share special dividend paid in 2Q24,  representing a further $3.9bn distribution. We aim to maintain a CET1 capital ratio in the  range of 14 to 14.5% over the medium term.  Our primary use of capital generation is to  pay an ordinary dividend of 50% of pro",
+          "with a commitment to an  annualised reduction of $1.5bn in our cost  base expected by the end of 2026. To deliver  these reductions, we plan to incur severance  and other up-front costs of $1.8bn over 2025  and 2026, which will be classified as notable  items.  Capital and dividend policy CET1 ratio  14.9% Dividend payout ratio in respect of 2024  50% on a dividend payout ratio target basis. At 31 December 2024, our CET1 capital ratio  was 14.9% which was higher than our  medium-term target range of 14% to",
+          "impact on  our CET1 ratio will be a modest benefit. Liquidity position We actively manage the Group’s liquidity and  funding to support the business strategy and  meet regulatory requirements at all times,  including under stress. To do this, we monitor  our position using a number of risk appetite  measures, including the liquidity coverage  ratio and the net stable funding ratio. During  2024, the average high-quality liquid assets we  held was $649.2bn. This excludes high-quality  liquid assets in legal",
+          "g cost savings  generated through business disposals for  incremental re-investment into our core  franchises. This would be in addition to our  ongoing investments. Capital generation Our business model is designed to be highly  capital generative. In 2024, our common  equity tier 1 (‘CET1’) capital ratio grew from  14.8% to 14.9% as at 31 December 2024.  During the calendar year, we paid $5.5bn  ordinary dividends with respect to 2024, we  expect to pay a further $6.4bn through the  fourth interim dividen",
+          "ing balances. – We expect double-digit percentage average  annual growth in fee and other income in  Wealth over the medium-term.  – We intend to continue to manage the CET1  capital ratio within our medium-term target  range of 14% to 14.5%, with a dividend  payout ratio target basis of 50% for 2025,  excluding material notable items and related  impacts.  Our targets and expectations reflect our current  outlook for the global macroeconomic  environment and market-dependent factors, such  as market-implie"
+        ]
+      },
+      {
+        "id": "rag-05",
+        "category": "answerable",
+        "question": "2024 年的成本效率比是多少？2023 年是多少？",
+        "answer": "2024年的成本效率比为50.2%，2023年的成本效率比为48.5%。",
+        "refused": false,
+        "retrieved": [
+          "28",
+          "88",
+          "4",
+          "16",
+          "27"
+        ],
+        "gold_sources": [
+          28
+        ],
+        "supporting": [
+          "28",
+          "112"
+        ],
+        "hit": true,
+        "contexts": [
+          "idends, while retaining the flexibility to  invest and grow the business, supplemented  by additional shareholder distributions, if  appropriate. HSBC Holdings plc Annual Report and Accounts 2024 25 Strategic report  Key financial metrics For the year ended 31 Dec Reported results 2024 2023 2022 Profit before tax ($m) 32,309 30,348 17,058  Profit after tax ($m) 24,999 24,559 16,249  Revenue ($m) 65,854 66,058 50,620  Cost efficiency ratio (%) 50.2 48.5 64.6  Net interest margin (%) 1.56 1.66 1.42  Basic ear",
+          "assessing cost- related targets. For a reconciliation from reported operating expenses  to target basis operating expenses, see page 124. In 2024, we targeted operating expenses growth on a target basis of  approximately 5% compared with 2023. This target reflected our  business plan for 2024, which included an increase in staff  compensation, higher spend and investment in technology for growth  and efficiency, in part mitigated by cost savings from actions taken  during 2023.  We are targeting growth in",
+          "red with 2024.  – Our target basis operating expenses for 2025  excludes the direct cost impact of the business  disposals in Canada and Argentina, notable  items and the impact of retranslating the prior  year results of hyperinflationary economies at  constant currency. – Our cost target includes the impact of  simplification-related saves associated with our  announced reorganisation, which aims to  generate approximately $0.3bn of cost  reductions in 2025, with a commitment to an  – annualised reduction",
+          "c Annual Report and Accounts 2024 13 Strategic report  Our ambitions Mid-teens RoTE extended During 2024, we announced our intention to  target a mid-teens RoTE1, excluding the  impact of notable items, for 2025. Alongside  our 2024 annual results, we have extended  this target to each of 2025, 2026 and 2027.  We will consider our cost and investment  plans within this framework.  Simplification  With our 2024 results, we have announced  that we aim to generate approximately  $0.3bn of cost reductions in 20",
+          ", as  well as customer behaviour and activity levels. Target basis operating expenses  $32.6bn (2023: $31.1bn) In 2024, reported operating expenses  increased by 3.0% compared with 2023.  Target basis operating expense growth was  5.1% compared with 2023, in line with our  target of approximately 5%. Growth primarily  reflected higher investment spend, including in  technology and from inflationary pressures. Our target basis operating expenses for 2024  excluded the direct cost impact of the disposals  in"
+        ]
+      },
+      {
+        "id": "rag-06",
+        "category": "answerable",
+        "question": "2024 年的营业费用总额是多少？",
+        "answer": "根据现有信息，2024年目标口径营业费用为326亿美元，较2023年的311亿美元同比增长5.1%，符合此前约5%的增长目标；2024年报告口径营业费用较2023年同比增长3.0%。现有披露内容未给出2024年营业费用总额的完整报告口径合计数值。",
+        "refused": false,
+        "retrieved": [
+          "88",
+          "94",
+          "27",
+          "4",
+          "27"
+        ],
+        "gold_sources": [
+          3
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "12",
+          "30",
+          "95"
+        ],
+        "hit": true,
+        "contexts": [
+          "assessing cost- related targets. For a reconciliation from reported operating expenses  to target basis operating expenses, see page 124. In 2024, we targeted operating expenses growth on a target basis of  approximately 5% compared with 2023. This target reflected our  business plan for 2024, which included an increase in staff  compensation, higher spend and investment in technology for growth  and efficiency, in part mitigated by cost savings from actions taken  during 2023.  We are targeting growth in",
+          "easurement uncertainties and significant judgements applied to  such calculations, the impact of the economic scenarios and  management judgemental adjustments, see pages 147 to 160. Operating expenses Year ended 2024 2023 2022 $m $m $m Gross employee compensation and benefits 20,153 19,623 19,288 Capitalised wages and salaries (1,688) (1,403) (1,285)  Property and equipment 4,786 4,285 4,949 Amortisation and impairment of intangibles 2,235 1,827 1,701 UK bank levy 249 339 13 Legal proceedings and regulator",
+          ", as  well as customer behaviour and activity levels. Target basis operating expenses  $32.6bn (2023: $31.1bn) In 2024, reported operating expenses  increased by 3.0% compared with 2023.  Target basis operating expense growth was  5.1% compared with 2023, in line with our  target of approximately 5%. Growth primarily  reflected higher investment spend, including in  technology and from inflationary pressures. Our target basis operating expenses for 2024  excluded the direct cost impact of the disposals  in",
+          "red with 2024.  – Our target basis operating expenses for 2025  excludes the direct cost impact of the business  disposals in Canada and Argentina, notable  items and the impact of retranslating the prior  year results of hyperinflationary economies at  constant currency. – Our cost target includes the impact of  simplification-related saves associated with our  announced reorganisation, which aims to  generate approximately $0.3bn of cost  reductions in 2025, with a commitment to an  – annualised reduction",
+          "for 2024  excluded the direct cost impact of the disposals  in France and Canada from the 2023 baseline. It  is measured on a constant currency basis and  excludes notable items and the impact of  retranslating the prior year results of  hyperinflationary economies at constant currency. We retain a Group-wide focus on cost  discipline. We are targeting growth in target  basis operating expenses of approximately  3% in 2025 compared with 2024. Our target  basis operating expenses for 2025 excludes  the dire"
+        ]
+      },
+      {
+        "id": "rag-07",
+        "category": "answerable",
+        "question": "2024 年平均有形股本回报率（RoTE）是多少？",
+        "answer": "2024年平均有形股本回报率（RoTE）为14.6%；若剔除重大项目，该指标为16.0%。",
+        "refused": false,
+        "retrieved": [
+          "27",
+          "27",
+          "4",
+          "10",
+          "16"
+        ],
+        "gold_sources": [
+          8,
+          10
+        ],
+        "supporting": [
+          "3",
+          "8",
+          "10",
+          "13",
+          "27",
+          "95",
+          "105"
+        ],
+        "hit": true,
+        "contexts": [
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          "statement  performance on both a reported and constant  currency basis, and the main factors impacting  the strength of our balance sheet, capital and  liquidity position.  Group financial targets Return on average tangible equity  excluding notable items  16.0% (2023: 16.2%) In 2024, RoTE was 14.6%, in line with 2023. For the purposes of measuring performance  against our Group target, we adjust RoTE to  exclude notable items. From 1 January 2024,  we revised the adjustments made to RoTE  from excluding o",
+          "quarter 2025 results  announcement.  Outlook  – We have announced measures to simplify the  Group and we are focused on opportunities  that build on our strong platform for growth. – We are now targeting a mid-teens return on  average tangible equity (‘RoTE’) in each of  the three years from 2025 to 2027 excluding  notable items, while acknowledging the  outlook for interest rates remains volatile and  uncertain, particularly in the medium term. – We expect banking NII of around $42bn in  2025. Our current",
+          "responsibility as delivering  sustainable strategic growth for our  shareholders. This begins by putting our  customers at the centre of everything we do.  Our financial strength, international network,  heritage, and brand mean we build upon firm  foundations.  We look to the future with confidence. We begin from a position of strength, which  is reinforced by our 2024 performance.  During the year, we delivered a return on  average tangible equity (‘RoTE’) of 14.6%.  This includes several notable items,",
+          "c Annual Report and Accounts 2024 13 Strategic report  Our ambitions Mid-teens RoTE extended During 2024, we announced our intention to  target a mid-teens RoTE1, excluding the  impact of notable items, for 2025. Alongside  our 2024 annual results, we have extended  this target to each of 2025, 2026 and 2027.  We will consider our cost and investment  plans within this framework.  Simplification  With our 2024 results, we have announced  that we aim to generate approximately  $0.3bn of cost reductions in 20"
+        ]
+      },
+      {
+        "id": "rag-08",
+        "category": "answerable",
+        "question": "2024 年中国内地业务的税前利润是多少？其中来自交通银行的利润份额是多少？",
+        "answer": "2024年中国内地业务的税前利润为32亿美元，其中来自交通银行（BoCom）的利润份额为22亿美元。",
+        "refused": false,
+        "retrieved": [
+          "14",
+          "4",
+          "105",
+          "38",
+          "115"
+        ],
+        "gold_sources": [
+          14
+        ],
+        "supporting": [
+          "14",
+          "31",
+          "38"
+        ],
+        "hit": true,
+        "contexts": [
+          "markets, including mainland China, India,  Singapore and the UAE. These markets are  well connected to international trade, wealth  and investment flow and are key to our  international connectivity. In 2024, we reported profit before tax of  $3.2bn in our mainland China business,  including a $2.2bn share of profit from our  associate, BoCom. We have a strong client  franchise in mainland China, helping to  support clients’ international needs. We were  the Best Trade/Supply Chain Finance Bank in  202410.",
+          "2024, these included a gain of  $4.8bn on the disposal of our banking business  in Canada, the impacts of the disposal of our  business in Argentina, comprising a $1.0bn loss  on disposal, and the recycling of foreign  currency reserve losses and other reserves of  $5.2bn. In 2023, notable items included an  impairment of $3.0bn on our associate, Bank of  Communications Co., Limited (‘BoCom’),  disposal losses of $1.0bn on Treasury  repositioning and risk management and a  $1.6bn gain recognised on the acq",
+          "enses (4,837) (4,947) (14,544) (9,013) 298 (33,043)  Share of profit in associates and joint ventures less  impairment — — 1 47 2,864 2,912  Profit before tax 9,121 6,605 11,407 3,972 1,204 32,309  RoTE (%) c.38% c.25% c.14% c.16% c.1% 14.6% At 31 Dec 2024 Loans and advances to customers (net) 235,208 267,293 284,701 136,325 7,131 930,658  Customer accounts 507,389 330,012 557,796 259,443 315 1,654,955  RWAs 143,668 133,495 388,047 85,673 87,371 838,254  2024 Hong Kong UK Corporate  and  Institutional  Bank",
+          "ing in relation to the  FDIC special assessment and the UK bank levy.  Share of profit from associates and joint  ventures of $2.9bn increased by $3.2bn on a  constant currency basis, primarily reflecting the  non-recurrence of an impairment charge of  $3.0bn in 2023 relating to our investment in  BoCom and an increase in share of profit from  SAB. Results – on a constant currency basis 2024 2023 2022 2024 vs 2023 of which strategic  transactions 1 $m $m $m $m % $m Net operating income (1,929) (103) (1,934)",
+          "serve losses and $0.4bn of other reserves losses. 2 Amounts relate to restructuring provisions recognised in 2024 and reversals of restructuring provisions recognised during 2022. Selected countries/territories results1 2024 UK2 Hong Kong Mainland China US Mexico $m $m $m $m $m Revenue3 21,017 22,038 4,078 4,216 3,573  ECL (526) (1,273) (121) (81) (864)  Operating expenses (13,725) (8,886) (2,971) (3,350) (1,994)  Share of profit/(loss) in associates and joint ventures 24 8 2,241 — 15  Profit before tax 6,7"
+        ]
+      },
+      {
+        "id": "rag-09",
+        "category": "answerable",
+        "question": "2024 年集团向股东返还的总金额是多少？",
+        "answer": "根据现有提供的信息，无法计算得出2024年集团向股东返还的总金额：\n1. 已披露的2024年相关股东回报信息包括：全年普通股股息合计每股0.87美元，其中包含出售加拿大银行业务所得带来的每股0.21美元特别股息；集团宣布拟启动最高规模20亿美元的股份回购，预计在2025年第一季度业绩公告前完成。\n2. 现有信息未披露2024年集团的总股本、全年实际派发现金股息的总规模，也未披露2024年内实际完成的股份回购金额，因此无法核算2024年集团向股东返还的总金额。",
+        "refused": false,
+        "retrieved": [
+          "8",
+          "27",
+          "27",
+          "4",
+          "28"
+        ],
+        "gold_sources": [
+          12
+        ],
+        "supporting": [
+          "12"
+        ],
+        "hit": false,
+        "contexts": [
+          "t. Combined  with our sustained levels of profitability, this  led to greater earnings and dividends per  share for our shareholders.  Dividends paid in 2024, together with a more  than 20% increase in the share price,  delivered a total shareholder return for the  year of more than 30%.  Our performance demonstrates that our  strategy is working. To maintain, and indeed  accelerate, the momentum, we are being  very deliberate in creating investment  capacity for priority areas, focusing on long- term strat",
+          "ts out our key Group financial  targets and the progress we made towards  these in 2024, and our expectations for 2025  and beyond. We also include a more detailed  table covering further key financial metrics that  we consider insightful for understanding the  Group’s performance. The Group financial results that follow provide  more detailed insight into the performance  that has driven the outcomes of our financial  targets. It covers income statement  performance on both a reported and constant  currenc",
+          "ce in 2024  with reported profit before tax of $32.3bn, up  $2.0bn or 6% compared with 2023. Our  financial performance demonstrates the  progress against our strategic priorities.  In 2024, we achieved a return on average  tangible equity (‘RoTE’) of 14.6% and a RoTE  excluding notable items of 16.0%. We have  now further extended our mid-teens RoTE  target in each of the three years from 2025 to  2027, excluding notable items. This section sets out our key Group financial  targets and the progress we made",
+          "nly due to capital generation and a  reduction in RWAs through strategic  transactions, offset by dividends, share buy- backs and organic balance sheet growth. – The Board has approved a fourth interim  dividend of $0.36 per share, resulting in a  total of $0.87 per share in respect of 2024,  inclusive of a special dividend of $0.21 per  share. We also intend to initiate a share buy- back of up to $2bn, which we expect to  complete by our first quarter 2025 results  announcement.  Outlook  – We have announc",
+          "of other  alternative performance measures are included in ‘Reconciliation of alternative performance measures’ on page 120. 1 In 2024, dividend per share includes the special dividend of $0.21 per ordinary share arising from the proceeds of the sale of our banking business in Canada to Royal  Bank of Canada.  2 In 2024 and 2023, our dividend payout ratio was adjusted for material notable items and related impacts, including all associated income statement impacts relating to  those items. In 2022, our divi"
+        ]
+      },
+      {
+        "id": "rag-10",
+        "category": "answerable",
+        "question": "2024 年的银行净利息收入（banking NII）是多少？",
+        "answer": "2024年的银行净利息收入（banking NII）为437亿美元。",
+        "refused": false,
+        "retrieved": [
+          "92",
+          "4",
+          "93",
+          "4",
+          "93"
+        ],
+        "gold_sources": [
+          3
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "29",
+          "31",
+          "93"
+        ],
+        "hit": true,
+        "contexts": [
+          "ments and thus higher cost. 2 Including interest-bearing bank deposits only.  3 Including interest-bearing customer accounts only.  Net interest income (‘NII’) for 2024 was $32.7bn, a decrease of  $3.1bn or 9% compared with 2023. The decrease included a $2.7bn  reduction mainly due to the redeployment of our commercial surplus  to net trading and fair value assets, for which the associated revenue  is reported in ‘net income on financial instruments held for trading or  managed on a fair value basis‘. The f",
+          "m. – We expect banking NII of around $42bn in  2025. Our current expectation reflects  modelling of a number of market-dependent  factors. If changes in these factors impact the  output of our modelling, we would update our  expectation for 2025 Banking NII in future  quarterly results announcements. – We retain a Group-wide focus on cost  discipline. We are targeting growth in target  basis operating expenses of approximately  3% in 2025 compared with 2024.  – Our target basis operating expenses for 2025",
+          "ost to fund these  trading and fair value net assets is reported in NII. Banking NII was $43.7bn in 2024. The funding costs associated with  generating trading and fair value income were $11.4bn, an increase of  $2.7bn compared with 2023, primarily reflecting redeployment of our  commercial surplus to net trading and fair value assets. Banking NII  also deducts third-party NII related to our insurance business, which  was $0.4bn, stable compared with 2023. The movement in banking  NII also included a reduct",
+          "quarter 2025 results  announcement.  Outlook  – We have announced measures to simplify the  Group and we are focused on opportunities  that build on our strong platform for growth. – We are now targeting a mid-teens return on  average tangible equity (‘RoTE’) in each of  the three years from 2025 to 2027 excluding  notable items, while acknowledging the  outlook for interest rates remains volatile and  uncertain, particularly in the medium term. – We expect banking NII of around $42bn in  2025. Our current",
+          "nst the previous  quarter was due to the non-recurrence of an adverse impact from the  early redemption of legacy securities. The year-on-year decline was  primarily due to lower market interest rates. Banking net interest income Year ended Quarter ended 31 Dec 2024 31 Dec 2023 31 Dec 2024 30 Sep 2024 31 Dec 2023 $m $m $m $m $m Net interest income 32,733 35,796 8,185 7,637 8,284  Banking book funding costs used to generate ‘net income from financial instruments  held for trading or managed on a fair value b"
+        ]
+      },
+      {
+        "id": "rag-11",
+        "category": "answerable",
+        "question": "2024 年完成行为与金融犯罪合规培训的员工比例是多少？目标要求是多少？",
+        "answer": "2024年完成行为培训的员工比例为99%；目标要求是每年至少有98%的员工完成行为与金融犯罪培训。\n注：现有披露信息中未单独列明2024年金融犯罪培训的具体完成比例，相关金融犯罪培训完成率可查阅ESG回顾第80页内容。",
+        "refused": false,
+        "retrieved": [
+          "19",
+          "19",
+          "19",
+          "72",
+          "82"
+        ],
+        "gold_sources": [
+          19
+        ],
+        "supporting": [
+          "19",
+          "71",
+          "82"
+        ],
+        "hit": true,
+        "contexts": [
+          "d by Black heritage  colleagues in the UK and US  combined by 20256. Inclusion index score. (2023: 78%)  Ambition: Maintain 75% in the  Snapshot Inclusion index. Governance:  Acting  responsibly Conduct training 8 Customer satisfaction 9 99% 4 out of 6 3 out of 6 Employees who completed  conduct training in 2024. (2023: 98%) Target: At least 98% of employees  complete conduct and financial  crime training each year. WPB markets that sustained top- three rank and/or improved in  customer satisfaction. (2023:",
+          "nched in December 2023 and concluded in 2024, and covers permanent   and non-permanent employees (where legally permissible to assign training). For completion rates related to financial crime training, see the ESG review on page 80. 9 The markets where we report rank positions for WPB and CMB – the UK, Hong Kong, mainland China, India, Mexico and Singapore – are in line with the annual  executive scorecards. For further details of customer satisfaction, see the ESG review on page 77. For further details of",
+          "with the scorecards, see page 297. 6 These numerical ambitions do not form part of any US-based senior leader performance or other objectives, or in other jurisdictions where application of such  should not apply under local law. 7 For further details, see the ESG review on page 67. For details of how this ambition links with the scorecards, see page 297. 8 The completion rate shown relates to the ‘Conduct Matters’ training module that was launched in December 2023 and concluded in 2024, and covers permane",
+          "olleagues in 2024. (2023: 5.3 million) 29.6 hours  Training hours per FTE in 2024.  (2023: 23.9 hours) Energising our  colleagues for growth We aim to provide our colleagues with  the opportunity to develop critical skills  while creating a pipeline of talent to  support our strategic ambitions. It is  essential that we promote effective  leadership and foster an environment  that inspires our colleagues to grow. In  2024, our focus has been on: – Our Digital Acceleration Programme,  which aims to create dy",
+          "which we operate. The financial crime risk  framework, which is overseen by the Board, is  supported by our financial crime policy that is  designed to enable adherence to applicable  laws and regulations globally. Annual global  mandatory training is provided to all colleagues,  with additional targeted training tailored to  certain individuals. We carry out regular risk  assessments to identify where we need to  respond to evolving financial crime threats, as  well as to monitor and test our financial cr"
+        ]
+      },
+      {
+        "id": "rag-12",
+        "category": "answerable",
+        "question": "剔除 notable items 后，2024 年收入是多少？",
+        "answer": "剔除notable items后，2024年的收入为674.34亿美元（即67,434百万美元）。",
+        "refused": false,
+        "retrieved": [
+          "30",
+          "27",
+          "13",
+          "88",
+          "29"
+        ],
+        "gold_sources": [
+          4
+        ],
+        "supporting": [
+          "4"
+        ],
+        "hit": false,
+        "contexts": [
+          "249 440 2  Revenue excluding notable items 67,434 65,723 54,222 1,711 3  Profit before tax excluding notable items 34,122 33,198 23,560 924 3  1 For details, see ‘Impact of strategic transactions‘ on page 102. 2024 2023 2022 Notable items $m $m $m Revenue Disposals, acquisitions and related costs 1  (1,343) 1,298 (2,737)  Fair value movements on financial instruments 2  — 14 (618)  Restructuring and other related costs — — (247)  Disposal losses on Markets Treasury repositioning — (977) —  Early redemption",
+          "2024,  we revised the adjustments made to RoTE  from excluding only the impact of strategic  transactions and the impairment of BoCom, to  exclude all notable items. This was intended to  improve alignment with the treatment of  notable items in our other income statement  disclosures. RoTE excluding notable items has  been re-presented for 2023 on the revised  basis and we no longer disclose RoTE  excluding strategic transactions and the  impairment of BoCom. RoTE excluding notable items was 16.0%, a  decr",
+          "before tax  excluding notable items and the impact of  foreign currency translation. On this basis,  profit before tax was $34.1bn, compared with  $32.7bn in 2023. Our reported revenue of  $65.9bn was broadly stable compared with  2023. Excluding notable items and in  constant currency, we grew revenue by 5%  compared with 2023.  In 2024, we achieved a RoTE of 14.6%.  During 2024, we reported several notable  items, in particular related to strategic  disposals. To facilitate comparison across  periods, we",
+          "basis We established a dividend payout ratio target basis of 50% for 2023  and 2024, and we continue to target a payout ratio target basis of  50% for 2025. For the purposes of computing our dividend payout  ratio target basis, we exclude from earnings per share material  notable items and related impacts. Material notable items are  components of our income statement that management would  consider as outside the normal course of business and generally non- recurring in nature, which are excluded from our",
+          "aterial  notable item is dependent on the nature of  each item in conjunction with the financial  impact on the Group’s income statement. The tables on pages 99 to 101 and pages 113  to 118 detail the effects of notable items on  each of our global business segments and  legal entities during 2024, 2023 and 2022. Management view of revenue on a  constant currency basis Our global business segment commentary  includes tables that provide breakdowns of  revenue on a constant currency basis by  major product."
+        ]
+      },
+      {
+        "id": "rag-13",
+        "category": "multi_hop",
+        "question": "2024 年税前利润同比增加的 20 亿美元中，有多少来自 notable items 的净正面影响？",
+        "answer": "根据披露信息，2024年报告口径的税前利润较2023年高出20亿美元（即20亿美元的同比增幅），其中有10亿美元来自notable items（重大项目）带来的净正面影响。",
+        "refused": false,
+        "retrieved": [
+          "29",
+          "13",
+          "30",
+          "29",
+          "31"
+        ],
+        "gold_sources": [
+          3,
+          4
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "5",
+          "29",
+          "30",
+          "33",
+          "38",
+          "91",
+          "92",
+          "93",
+          "94",
+          "95",
+          "98",
+          "101",
+          "115"
+        ],
+        "hit": true,
+        "contexts": [
+          "performance  commentary that follows compares our  results in 2024 with those in 2023. Reported results (vs 2023) Reported profit Reported profit before tax of $32.3bn was  $2.0bn or 6% higher. This included a net  $1.0bn favourable impact from notable items.  In 2024, notable items included a gain of  $4.8bn following the disposal of our banking  business in Canada, and losses associated  with the sale of our business in Argentina,  comprising a $1.0bn loss on disposal, as well  as the recycling of foreig",
+          "before tax  excluding notable items and the impact of  foreign currency translation. On this basis,  profit before tax was $34.1bn, compared with  $32.7bn in 2023. Our reported revenue of  $65.9bn was broadly stable compared with  2023. Excluding notable items and in  constant currency, we grew revenue by 5%  compared with 2023.  In 2024, we achieved a RoTE of 14.6%.  During 2024, we reported several notable  items, in particular related to strategic  disposals. To facilitate comparison across  periods, we",
+          "249 440 2  Revenue excluding notable items 67,434 65,723 54,222 1,711 3  Profit before tax excluding notable items 34,122 33,198 23,560 924 3  1 For details, see ‘Impact of strategic transactions‘ on page 102. 2024 2023 2022 Notable items $m $m $m Revenue Disposals, acquisitions and related costs 1  (1,343) 1,298 (2,737)  Fair value movements on financial instruments 2  — 14 (618)  Restructuring and other related costs — — (247)  Disposal losses on Markets Treasury repositioning — (977) —  Early redemption",
+          "aterial  notable item is dependent on the nature of  each item in conjunction with the financial  impact on the Group’s income statement. The tables on pages 99 to 101 and pages 113  to 118 detail the effects of notable items on  each of our global business segments and  legal entities during 2024, 2023 and 2022. Management view of revenue on a  constant currency basis Our global business segment commentary  includes tables that provide breakdowns of  revenue on a constant currency basis by  major product.",
+          "043) (31,494) (32,229) (1,549) (5) 992  Operating profit 29,397 30,159 13,743 (762) (3)  Share of profit in associates and joint ventures less impairment 2,912 (256) 2,559 3,168 >100 —  Profit before tax 32,309 29,903 16,302 2,406 8 (2,862)  Revenue excluding notable items 67,434 64,489 53,383 2,945 5  Profit before tax excluding notable items 34,122 32,680 23,057 1,442 4  1 For details, see ‘Impact of strategic transactions‘ on page 102. Profit before tax of $32.3bn was $2.4bn  higher than in 2023 on a con"
+        ]
+      },
+      {
+        "id": "rag-14",
+        "category": "multi_hop",
+        "question": "如果把交通银行的利润份额剔除，2024 年中国内地业务自身的税前利润大约是多少？",
+        "answer": "根据披露信息，2024年中国内地业务的税前利润为32亿美元，其中包含来自联营企业交通银行（BoCom）的22亿美元利润份额，剔除该部分后，中国内地业务自身的税前利润约为10亿美元。",
+        "refused": false,
+        "retrieved": [
+          "14",
+          "4",
+          "115",
+          "29",
+          "27"
+        ],
+        "gold_sources": [
+          14
+        ],
+        "supporting": [
+          "14",
+          "31",
+          "38"
+        ],
+        "hit": true,
+        "contexts": [
+          "markets, including mainland China, India,  Singapore and the UAE. These markets are  well connected to international trade, wealth  and investment flow and are key to our  international connectivity. In 2024, we reported profit before tax of  $3.2bn in our mainland China business,  including a $2.2bn share of profit from our  associate, BoCom. We have a strong client  franchise in mainland China, helping to  support clients’ international needs. We were  the Best Trade/Supply Chain Finance Bank in  202410.",
+          "2024, these included a gain of  $4.8bn on the disposal of our banking business  in Canada, the impacts of the disposal of our  business in Argentina, comprising a $1.0bn loss  on disposal, and the recycling of foreign  currency reserve losses and other reserves of  $5.2bn. In 2023, notable items included an  impairment of $3.0bn on our associate, Bank of  Communications Co., Limited (‘BoCom’),  disposal losses of $1.0bn on Treasury  repositioning and risk management and a  $1.6bn gain recognised on the acq",
+          "serve losses and $0.4bn of other reserves losses. 2 Amounts relate to restructuring provisions recognised in 2024 and reversals of restructuring provisions recognised during 2022. Selected countries/territories results1 2024 UK2 Hong Kong Mainland China US Mexico $m $m $m $m $m Revenue3 21,017 22,038 4,078 4,216 3,573  ECL (526) (1,273) (121) (81) (864)  Operating expenses (13,725) (8,886) (2,971) (3,350) (1,994)  Share of profit/(loss) in associates and joint ventures 24 8 2,241 — 15  Profit before tax 6,7",
+          "performance  commentary that follows compares our  results in 2024 with those in 2023. Reported results (vs 2023) Reported profit Reported profit before tax of $32.3bn was  $2.0bn or 6% higher. This included a net  $1.0bn favourable impact from notable items.  In 2024, notable items included a gain of  $4.8bn following the disposal of our banking  business in Canada, and losses associated  with the sale of our business in Argentina,  comprising a $1.0bn loss on disposal, as well  as the recycling of foreig",
+          "2024,  we revised the adjustments made to RoTE  from excluding only the impact of strategic  transactions and the impairment of BoCom, to  exclude all notable items. This was intended to  improve alignment with the treatment of  notable items in our other income statement  disclosures. RoTE excluding notable items has  been re-presented for 2023 on the revised  basis and we no longer disclose RoTE  excluding strategic transactions and the  impairment of BoCom. RoTE excluding notable items was 16.0%, a  decr"
+        ]
+      },
+      {
+        "id": "rag-15",
+        "category": "multi_hop",
+        "question": "2024 年 CET1 比率较 2023 年变动了多少？报告给出的主要原因是什么？",
+        "answer": "2024年CET1资本比率为14.9%，较2023年的14.8%小幅上升。\n主要原因是：资本生成、通过战略交易降低风险加权资产（RWAs）带来的正向影响，被股息派发、股份回购以及资产负债表自然增长的影响所抵消，最终使得比率较上年小幅上升。",
+        "refused": false,
+        "retrieved": [
+          "31",
+          "27",
+          "12",
+          "40",
+          "31"
+        ],
+        "gold_sources": [
+          4,
+          12
+        ],
+        "supporting": [
+          "3",
+          "4",
+          "10",
+          "12",
+          "16",
+          "27",
+          "31",
+          "39",
+          "40"
+        ],
+        "hit": true,
+        "contexts": [
+          "he impact on our capital  ratios as a result of stress. Our CET1 capital ratio at 31 December 2024  was 14.9%, up marginally compared with the  prior year as capital generation and a reduction  in RWAs through strategic transactions were  offset by dividends, share buy-backs and  organic balance sheet growth. In January 2025,  the PRA announced the delay of Basel 3.1  implementation to 1 January 2027 pending US  developments. We expect that the impact on  our CET1 ratio will be a modest benefit. Liquidity p",
+          "with a commitment to an  annualised reduction of $1.5bn in our cost  base expected by the end of 2026. To deliver  these reductions, we plan to incur severance  and other up-front costs of $1.8bn over 2025  and 2026, which will be classified as notable  items.  Capital and dividend policy CET1 ratio  14.9% Dividend payout ratio in respect of 2024  50% on a dividend payout ratio target basis. At 31 December 2024, our CET1 capital ratio  was 14.9% which was higher than our  medium-term target range of 14% to",
+          "l,  commercial and innovation-focused bank  which continues to build market share.  Customers in Hong Kong and the UK with  global banking needs will be able to access  the power of our international network  through our CIB and IWPB businesses, that  are anchored in these two leading  international financial centres. HSBC Holdings plc Annual Report and Accounts 2024 9 Strategic report  Financial strength CET1 ratio  14.9% (2023: 14.8%)  In 2024, our strong financial performance  enabled us to announce $26.",
+          "senior  management in allocating financial resources  optimally to finance sustainable growth and  manage risk exposures.  At 31 December 2024 our CET1 ratio and  ECL charges were within their defined risk  appetite thresholds. Our CET1 capital ratio at  31 December 2024 was 14.9%, up marginally  compared with the prior year as capital  generation and a reduction in RWAs through  strategic transactions were offset by  dividends, share buy-backs and organic  balance sheet growth. For further details of  the",
+          "impact on  our CET1 ratio will be a modest benefit. Liquidity position We actively manage the Group’s liquidity and  funding to support the business strategy and  meet regulatory requirements at all times,  including under stress. To do this, we monitor  our position using a number of risk appetite  measures, including the liquidity coverage  ratio and the net stable funding ratio. During  2024, the average high-quality liquid assets we  held was $649.2bn. This excludes high-quality  liquid assets in legal"
+        ]
+      },
+      {
+        "id": "rag-16",
+        "category": "unanswerable",
+        "question": "汇丰的 SWIFT/BIC 代码是什么？",
+        "answer": "根据提供的上下文信息，未提及汇丰的SWIFT/BIC代码相关内容，无法回答该问题。",
+        "refused": false,
+        "retrieved": [
+          "120",
+          "97",
+          "11",
+          "12",
+          "69"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "$m $m $m UK1 2,487 3,446 12 845 6,790  – of which: HSBC UK Bank plc (ring-fenced bank) 2,628 4,367 146 72 7,213  – of which: HSBC Bank plc (non-ring-fenced bank) 534 97 657 (359) 929  – of which: Holdings and other (675) (1,018) (791) 1,132 (1,352)  France 60 196 127 (153) 230  Germany 27 45 137 5 214  Hong Kong 7,453 3,212 1,704 (482) 11,887  Australia 141 378 99 (9) 609  India 96 448 875 269 1,688  Indonesia 7 156 63 (5) 221  Mainland China2 (167) 235 678 2,481 3,227  Malaysia 143 155 219 (3) 514  Singapo",
+          "ess in Canada — 63,001  – retail banking operations in France — 22,307  – private banking business in Germany 2,085 —  – business in South Africa 3,294 —  – other 20 642  Combined customer deposits 1,660,354 1,697,597  Currency translation — (38,656)  Combined customer deposits at constant currency 1,660,354 1,658,941  1 On 9 April 2024, HSBC Latin America B.V. entered into a binding agreement to sell its business in Argentina to Grupo Financiero Galicia (‘Galicia‘). The sale was  completed on 6 December 20",
+          ", unlocking HSBC’s full potential. Designed to deliver strong, sustainable  strategic growth For 160 years, HSBC has been defined by its  financial strength and international network.  Both remain enablers of everything we do.  What is changing is the clarity, speed and  intensity with which we are repositioning  HSBC around our four complementary, clearly  differentiated businesses. Corporate and Institutional Banking (‘CIB’) is  an international wholesale bank with  significant competitive advantages. It",
+          "l,  commercial and innovation-focused bank  which continues to build market share.  Customers in Hong Kong and the UK with  global banking needs will be able to access  the power of our international network  through our CIB and IWPB businesses, that  are anchored in these two leading  international financial centres. HSBC Holdings plc Annual Report and Accounts 2024 9 Strategic report  Financial strength CET1 ratio  14.9% (2023: 14.8%)  In 2024, our strong financial performance  enabled us to announce $26.",
+          "www.hsbc.com/esg. Employee conduct and harassment We expect all our employees to treat each  other with respect and dignity, and we do not  tolerate or condone discrimination,  harassment or bullying in any form, as  outlined in our Global Anti-Bullying and  Harassment Code. This is supported by our  Global Code of Conduct, which helps us to  maintain high standards across the Group.  We encourage our colleagues to speak up  about poor behaviour or things that do not  seem right. At times, we know it can be"
+        ]
+      },
+      {
+        "id": "rag-17",
+        "category": "unanswerable",
+        "question": "2024 年集团行政总裁获得的年度奖金金额是多少？",
+        "answer": "现有信息未披露2024年集团行政总裁获得的年度奖金的具体金额，仅提及Georges Elhedery2024年年度激励的兑现比例为其最高可获激励额度的78.79%，无对应具体奖金金额的相关内容。",
+        "refused": false,
+        "retrieved": [
+          "26",
+          "26",
+          "26",
+          "24",
+          "27"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "on-target performance, and how  this is impacted by Group, business and  individual performance. The Group Remuneration Committee  determined overall variable pay of $3,800m  (2023: $3,774m). This followed a review of  our performance against financial and non- financial metrics set out in the Group risk  framework. Our highest performers received  the largest increases in variable pay  compared with the previous year. Variable pay pool ($m) 3,800 3,774  For details of how the Group Remuneration  Committee",
+          "iate  against the targets set at the start of the year  for financial, strategic and personal measures. The Committee also carefully considered the  executive Directors’ pay outcomes in the  context of pay decisions made for the wider  workforce and determined that these were  an appropriate reflection of Group, business  and individual performance delivered in 2024. Executive Directors’ scorecard outcomes  (% of maximum opportunity) 2024 annual incentive Sir Noel Quinn 77.81% Georges Elhedery 78.79% 2022–2",
+          "c report  Remuneration Our remuneration policy supports the achievement of our strategic objectives  by aligning reward with our long-term sustainable performance. Remuneration for our executive Directors At the 2025 Annual General Meeting (‘AGM’),  we will be seeking shareholder approval for a  new executive Director remuneration policy.  Over several years, the Group Remuneration  Committee has expressed concerns around  the competitiveness of the executive Director  remuneration opportunity and indicated",
+          "ndidates with the depth of  knowledge and understanding required to  lead an organisation with the global scale and  complex nature of HSBC.  In July 2024, the Board announced its  decision to appoint Georges Elhedery, then  Group CFO, as Group CEO. In determining  that Georges Elhedery was the right  candidate for the role, the Board took into  account his exceptional leadership and  proven track record of leading through  change, driving growth, delivering  simplification, prudent risk management and  cos",
+          "ts out our key Group financial  targets and the progress we made towards  these in 2024, and our expectations for 2025  and beyond. We also include a more detailed  table covering further key financial metrics that  we consider insightful for understanding the  Group’s performance. The Group financial results that follow provide  more detailed insight into the performance  that has driven the outcomes of our financial  targets. It covers income statement  performance on both a reported and constant  currenc"
+        ]
+      },
+      {
+        "id": "rag-18",
+        "category": "unanswerable",
+        "question": "2025 年第一季度的营业收入具体是多少？",
+        "answer": "现有提供的上下文信息中未提及2025年第一季度营业收入的具体数值，无法给出对应答案。",
+        "refused": false,
+        "retrieved": [
+          "4",
+          "4",
+          "27",
+          "88",
+          "27"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "m. – We expect banking NII of around $42bn in  2025. Our current expectation reflects  modelling of a number of market-dependent  factors. If changes in these factors impact the  output of our modelling, we would update our  expectation for 2025 Banking NII in future  quarterly results announcements. – We retain a Group-wide focus on cost  discipline. We are targeting growth in target  basis operating expenses of approximately  3% in 2025 compared with 2024.  – Our target basis operating expenses for 2025",
+          "quarter 2025 results  announcement.  Outlook  – We have announced measures to simplify the  Group and we are focused on opportunities  that build on our strong platform for growth. – We are now targeting a mid-teens return on  average tangible equity (‘RoTE’) in each of  the three years from 2025 to 2027 excluding  notable items, while acknowledging the  outlook for interest rates remains volatile and  uncertain, particularly in the medium term. – We expect banking NII of around $42bn in  2025. Our current",
+          "Our target  basis operating expenses for 2025 excludes  the direct cost impact of the business  disposals in Canada and Argentina, notable  items and the impact of retranslating the prior  year results of hyperinflationary economies at  constant currency. Our cost target includes the impact of  simplification-related savings associated with  our announced reorganisation, which aims to  generate approximately $0.3bn of cost  reductions in 2025, with a commitment to an  annualised reduction of $1.5bn in our c",
+          "gs from actions taken  during 2023.  We are targeting growth in target basis operating expenses of  approximately 3% in 2025 compared with 2024. Our target basis  operating expenses for 2025 excludes the direct cost impact of the  business disposals in Canada and Argentina, notable items and the  impact of retranslating the prior year results of hyperinflationary  economies at constant currency. Our cost target includes the impact of simplification-related saves  associated with our announced reorganisation",
+          "ts out our key Group financial  targets and the progress we made towards  these in 2024, and our expectations for 2025  and beyond. We also include a more detailed  table covering further key financial metrics that  we consider insightful for understanding the  Group’s performance. The Group financial results that follow provide  more detailed insight into the performance  that has driven the outcomes of our financial  targets. It covers income statement  performance on both a reported and constant  currenc"
+        ]
+      },
+      {
+        "id": "rag-19",
+        "category": "unanswerable",
+        "question": "汇丰 2024 年在巴西的员工人数是多少？",
+        "answer": "根据提供的上下文信息，未提及汇丰2024年在巴西的员工人数相关内容，无法给出该数据。",
+        "refused": false,
+        "retrieved": [
+          "30",
+          "97",
+          "95",
+          "24",
+          "115"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "as 2023 included adjustments relating to  prior years, and from the non-recurrence of a  $0.2bn charge incurred in the US relating to the  FDIC special assessment. The number of employees expressed in full-time  equivalent staff (‘FTE’) at 31 December 2024  was 211,304, a decrease of 9,557 compared  with 31 December 2023, primarily reflecting the  completion of the sales of our banking business  in Canada, our retail banking operations in  France and our business in Argentina. The  number of contractors at",
+          "ess in Canada — 63,001  – retail banking operations in France — 22,307  – private banking business in Germany 2,085 —  – business in South Africa 3,294 —  – other 20 642  Combined customer deposits 1,660,354 1,697,597  Currency translation — (38,656)  Combined customer deposits at constant currency 1,660,354 1,658,941  1 On 9 April 2024, HSBC Latin America B.V. entered into a binding agreement to sell its business in Argentina to Grupo Financiero Galicia (‘Galicia‘). The sale was  completed on 6 December 20",
+          "usinesses Wealth and Personal Banking 119,791 128,399 128,764  Commercial Banking 45,190 45,884 43,640  Global Banking and Markets 45,983 46,241 46,435  Corporate Centre 340 337 360  At 31 Dec 211,304 220,861 219,199  1 Represents the number of full-time equivalent people with contracts of service with the Group who are being paid at the reporting date. Financial summary 92 HSBC Holdings plc Annual Report and Accounts 2024  Operating expenses of $33.0bn were $1.0bn or 3% higher than in  2023, including a fa",
+          "Argentina. A strategic review of  the business was undertaken which  considered whether it supported our strategy  for international expansion and growth.  The review concluded that HSBC Argentina,  as a largely domestically-focused business,  had limited connectivity with the Group’s  international network, and further contributed  to earnings volatility when its results were  converted to USD. Consideration was given  to regulatory matters, the impacts of a sale  on our employees and customers, particular",
+          "trading entities’ RWAs balance at 31 December 2024 includes HSBC Argentina operational risk RWAs, due to the averaging calculation and will roll off over  future reporting cycles. Legal entities 112 HSBC Holdings plc Annual Report and Accounts 2024  Summary information – legal entities and selected countries/territories Legal entity reported and constant currency results¹ 2024 HSBC  UK  Bank plc HSBC  Bank plc The  Hongkong  and  Shanghai  Banking  Corpo- ration  Limited HSBC  Bank  Middle  East  Limited HS"
+        ]
+      },
+      {
+        "id": "rag-20",
+        "category": "unanswerable",
+        "question": "汇丰 2024 年信用卡的发卡总量是多少张？",
+        "answer": "根据现有提供的信息，未提及汇丰2024年信用卡发卡总量的相关内容，无法回答该问题。",
+        "refused": false,
+        "retrieved": [
+          "100",
+          "14",
+          "114",
+          "4",
+          "112"
+        ],
+        "gold_sources": [],
+        "supporting": [],
+        "hit": false,
+        "contexts": [
+          "impact  on our CET1 ratio will be a modest benefit. RWAs by currency At 31 Dec 2024 $m USD GBP HKD EUR CNY Others Total RWAs 1 205,645 165,684 136,001 67,440 56,561 206,923 838,254  31 Dec 2023 RWAs 1 202,697 155,231 135,701 69,996 57,907 232,582 854,114  1 RWAs include credit risk, market risk and operational risk RWAs. HSBC Holdings plc Annual Report and Accounts 2024 97 Financial review  Global businesses and legal  entities Contents 98 Summary 99 Supplementary analysis of constant currency results and n",
+          "ustomers in WPB, with  the rate of growth accelerating from 345,000 in  the first half of 2024, to 454,000 in the second  half. Our 2024 full year new-to-bank customers  numbers grew by 66% compared with 2023.  We also continued to solidify our leadership  position and grow our WPB business. In our  wholesale businesses, we focused on  maintaining our leading position across multiple  products. In trade finance, our market share  was 29.2%, an increase of 3.5 percentage  points from 20237. UK HSBC UK has a",
+          "(114,987) 3,038,677  Customer accounts 339,611 274,733 801,430 31,341 99,607 — 29,423 35,326 176 1,611,647  Risk-weighted assets4,5 129,211 131,468 396,677 24,294 72,248 31,890 32,639 59,574 6,704 854,114  HSBC Holdings plc Annual Report and Accounts 2024 111 Financial review  HSBC reported profit/(loss) before tax and balance sheet data (continued) 2022 HSBC UK  Bank plc HSBC  Bank plc The  Hongkong  and Shanghai  Banking  Corporation  Limited HSBC  Bank  Middle  East  Limited HSBC  North  America  Holdin",
+          "of which $47bn were in Asia. (2023: $84bn generated, of which $47bn  were in Asia) Serve our clients internationally 62% Wholesale multi-jurisdictional client revenue  is generated by clients banking with us across  multiple markets.  (2023: 61%) Gender representation 34.6% Senior leadership roles held by women. (2023: 34.1%) Sustainable finance and investment $393.6bn Cumulative total provided and facilitated since  1 January 2020. (2023: $294.4bn) HSBC Holdings plc Annual Report and Accounts 2024 1  Hig",
+          "w issuances, including in the UK and the US, as well  as new assets, including in our legal entity in Hong Kong.  HSBC Holdings plc Annual Report and Accounts 2024 109 Financial review  Analysis of reported results by legal entities HSBC reported profit/(loss) before tax and balance sheet data 2024 HSBC  UK Bank  plc HSBC  Bank plc The  Hongkong  and  Shanghai  Banking  Corporation  Limited HSBC  Bank  Middle  East  Limited HSBC  North  America  Holdings  Inc. HSBC  Bank  Canada Grupo  Financiero  HSBC,  S."
+        ]
+      }
+    ]
+  }
+}

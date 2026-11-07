@@ -1,0 +1,12 @@
+# corpus and embedding cache are never committed: rebuild with scripts/build_corpus.py
+data/*.pdf
+data/corpus.txt
+data/.cache/
+reports/human_review.csv
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
