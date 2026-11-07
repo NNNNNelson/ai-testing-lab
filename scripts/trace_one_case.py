@@ -30,9 +30,38 @@ GOLDEN_RAG = ROOT / "evals" / "golden_rag.yaml"
 GOLDEN_AGENT = ROOT / "evals" / "golden_agent.yaml"
 
 
+def _load(path: Path, kind: str) -> list[dict]:
+    if not path.exists():
+        raise SystemExit(f"{kind} golden set missing: {path}")
+    return yaml.safe_load(path.read_text(encoding="utf-8"))
+
+
+def resolve_case(case_id: str, kind: str) -> dict:
+    """Find the case, or explain the mistake instead of raising StopIteration."""
+    own = _load(GOLDEN_RAG, "RAG") if kind == "rag" else _load(GOLDEN_AGENT, "agent")
+    hit = next((c for c in own if c.get("id") == case_id), None)
+    if hit:
+        return hit
+
+    other_kind = "agent" if kind == "rag" else "rag"
+    other = _load(GOLDEN_AGENT, "agent") if other_kind == "agent" else _load(GOLDEN_RAG, "RAG")
+    if any(c.get("id") == case_id for c in other):
+        flag = "adding `--agent`" if other_kind == "agent" else "dropping `--agent`"
+        raise SystemExit(
+            f"[FAIL] '{case_id}' is a {other_kind} case, not a {kind} case.\n"
+            f"       Re-run {flag}:  python scripts/trace_one_case.py --id {case_id}"
+            + (" --agent" if other_kind == "agent" else "")
+        )
+
+    by_cat: dict[str, list[str]] = {}
+    for c in own:
+        by_cat.setdefault(str(c.get("category", "?")), []).append(str(c.get("id")))
+    ids = "; ".join(f"{cat}: {', '.join(v)}" for cat, v in by_cat.items())
+    raise SystemExit(f"[FAIL] no {kind} case with id '{case_id}'.\n       available -> {ids}")
+
+
 def trace_rag(case_id: str) -> None:
-    cases = yaml.safe_load(GOLDEN_RAG.read_text(encoding="utf-8"))
-    case = next(c for c in cases if c["id"] == case_id)
+    case = resolve_case(case_id, "rag")
     provider = get_provider()
     system = BaselineRAG(CORPUS, provider=provider, top_k=5)
     pages = load_pages(CORPUS)
@@ -74,8 +103,7 @@ def trace_rag(case_id: str) -> None:
 def trace_agent(case_id: str) -> None:
     from agent.baseline_router import IntentRouter, RuleRouter
 
-    cases = yaml.safe_load(GOLDEN_AGENT.read_text(encoding="utf-8"))
-    case = next(c for c in cases if c["id"] == case_id)
+    case = resolve_case(case_id, "agent")
     print(f"input    : {case['input']}")
     print(f"expected : {case['expect_intent']}   category={case['category']}")
     for cls in (RuleRouter, IntentRouter):
